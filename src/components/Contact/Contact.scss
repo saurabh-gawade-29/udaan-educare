@@ -1,12 +1,16 @@
 .first-container {
-  //   max-height: 10%;
-  padding: 0;
-  position: relative;
-  overflow-x: hidden;
+  .banner-img {
+    background: black;
+    overflow: hidden;
+    height: 65vh;
+    min-height: 300px;
 
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
+    img {
+      opacity: 0.2;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
   }
 }

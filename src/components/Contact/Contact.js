@@ -8,7 +8,11 @@ export class Contact extends Component {
     return (
       <div>
         <div className="first-container">
-          <img src={contact_back} alt="" className="img-fluid" />
+          <div className="container-fluid p-0">
+            <div className="banner-img">
+              <img src={contact_back} alt="" className="img-fluid" />
+            </div>
+          </div>
         </div>
       </div>
     );
