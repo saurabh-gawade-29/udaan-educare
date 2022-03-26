@@ -1,3 +1,8 @@
+// !Guuter Issuie
+.con-gutter-row {
+  --bs-gutter-x: 0rem !important;
+}
+
 .first-container {
   .banner-img {
     background: black;
@@ -12,5 +17,41 @@
       object-fit: cover;
       object-position: center;
     }
+  }
+}
+.con-loc {
+  text-align: center;
+
+  .con-icons-down {
+    width: 50px;
+  }
+}
+
+.con-loc-1 {
+  text-align: center;
+  .con-icons-down {
+    width: 30px;
+  }
+}
+
+.con-form-container {
+  margin-top: 3rem;
+
+  .get-in-touch {
+    .get-part {
+      color: var(--udaan-orange);
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .first-container {
+    .banner-img {
+      height: 50vh;
+    }
+  }
+
+  .con-gutter-row {
+    --bs-gutter-x: 1.5rem !important;
   }
 }
