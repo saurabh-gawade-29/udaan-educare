@@ -1,0 +1,62 @@
+.upperFooter {
+  border-top: 5px solid var(--udaan-orange);
+}
+
+.upper-foot-container {
+  padding: 3rem 0rem 3rem 0rem;
+}
+
+.usefull,
+.courses,
+.other {
+  ul {
+    list-style: none;
+    padding-left: 0rem;
+  }
+
+  li {
+    padding-bottom: 0.4rem;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: var(--udaan-orange);
+    text-decoration: none;
+  }
+}
+
+.bottom-footer {
+  padding: 1rem 0.2rem 1rem 0.2rem;
+  background: var(--udaan-blue);
+  color: white;
+}
+
+.foot-social {
+  .facebook {
+    .highlight:hover {
+      color: #4267b2;
+      cursor: pointer;
+    }
+  }
+  .instagram {
+    .highlight:hover {
+      color: #8a3ab9;
+      cursor: pointer;
+    }
+  }
+  .youtube {
+    .highlight:hover {
+      color: #ff0000;
+      cursor: pointer;
+    }
+  }
+  .linkedin {
+    .highlight:hover {
+      color: #0077b5;
+      cursor: pointer;
+    }
+  }
+}

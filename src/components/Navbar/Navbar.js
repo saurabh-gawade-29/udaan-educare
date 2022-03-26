@@ -1,23 +1,25 @@
+// import Logo from "../../assets/Logo.jpg";
 import React, { Component } from "react";
-import Logo from "../../assets/Logo.jpg";
 import "./Navbar.scss";
+import { NavLink } from "react-router-dom";
 
 export class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="/">
-              Udaan Educare
-            </a>
-            {/* <div class="logo-container px-4">
-              <a class="navbar-brand" href="/">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light udaan-top-navbar">
+          <div className="container-fluid">
+            <NavLink className="navbar-brand" to="/">
+              <span className="udaan-text">Udaan</span>{" "}
+              <span className="educare-text">Educare</span>
+            </NavLink>
+            {/* <div className="logo-container px-4">
+              <a className="navbar-brand" href="/">
                 <img src={Logo} alt="Udaan Educare" className="logo-img" />
               </a>
             </div> */}
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -25,21 +27,28 @@ export class Navbar extends Component {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mx-auto">
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav mx-auto">
                 {/* Home */}
-                <li class="nav-item mx-3">
-                  <a class="nav-link" href="/">
+                <li className="nav-item mx-3">
+                  <NavLink
+                    className="nav-link fw-bold"
+                    to="/"
+                    activeclassname="active"
+                  >
                     Home
-                  </a>
+                  </NavLink>
                 </li>
 
                 {/* About Us */}
-                <li class="nav-item dropdown mx-3">
+                <li className="nav-item dropdown mx-3">
                   <a
-                    class="nav-link dropdown-toggle"
+                    className="nav-link dropdown-toggle fw-bold"
                     href="/"
                     id="AboutNavbarDropdown"
                     role="button"
@@ -49,21 +58,34 @@ export class Navbar extends Component {
                     About Us
                   </a>
                   <ul
-                    class="dropdown-menu"
+                    className="dropdown-menu"
                     aria-labelledby="AboutNavbarDropdown"
                   >
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <NavLink
+                        className="dropdown-item fw-bold"
+                        to="/About"
+                        activeclassname="active"
+                      >
+                        About
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        className="dropdown-item fw-bold"
+                        to="/OurPedagogy"
+                        activeclassname="active"
+                      >
                         Our Pedagogy
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </li>
 
                 {/* Discover Courses */}
-                <li class="nav-item dropdown mx-3">
+                <li className="nav-item dropdown mx-3">
                   <a
-                    class="nav-link dropdown-toggle"
+                    className="nav-link dropdown-toggle fw-bold"
                     href="/"
                     id="DiscoverNavbarDropdown"
                     role="button"
@@ -73,31 +95,43 @@ export class Navbar extends Component {
                     Discover Courses
                   </a>
                   <ul
-                    class="dropdown-menu"
+                    className="dropdown-menu"
                     aria-labelledby="DiscoverNavbarDropdown"
                   >
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <NavLink
+                        className="dropdown-item fw-bold"
+                        to="/FCourse"
+                        activeclassname="active"
+                      >
                         Foundation Course
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
-                        Foundation Course
-                      </a>
+                      <NavLink
+                        className="dropdown-item fw-bold"
+                        to="/ECourse"
+                        activeclassname="active"
+                      >
+                        Engineering Course
+                      </NavLink>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
-                        Foundation Course
-                      </a>
+                      <NavLink
+                        className="dropdown-item fw-bold"
+                        to="/MCourse"
+                        activeclassname="active"
+                      >
+                        Medical Course
+                      </NavLink>
                     </li>
                   </ul>
                 </li>
 
                 {/* Admission */}
-                <li class="nav-item dropdown mx-3">
+                <li className="nav-item dropdown mx-3">
                   <a
-                    class="nav-link dropdown-toggle"
+                    className="nav-link dropdown-toggle fw-bold"
                     href="/"
                     id="AboutNavbarDropdown"
                     role="button"
@@ -107,22 +141,30 @@ export class Navbar extends Component {
                     Admission
                   </a>
                   <ul
-                    class="dropdown-menu"
+                    className="dropdown-menu"
                     aria-labelledby="AboutNavbarDropdown"
                   >
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <NavLink
+                        className="dropdown-item fw-bold"
+                        to="/Admission"
+                        activeclassname="active"
+                      >
                         Admission Criteria
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </li>
 
                 {/* Contact Us */}
-                <li class="nav-item mx-3">
-                  <a class="nav-link" href="/">
+                <li className="nav-item mx-3">
+                  <NavLink
+                    className="nav-link fw-bold"
+                    to="/Contact"
+                    activeclassname="active"
+                  >
                     Contact Us
-                  </a>
+                  </NavLink>
                 </li>
 
                 {/* End */}

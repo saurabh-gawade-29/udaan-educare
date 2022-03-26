@@ -1,5 +1,25 @@
-.logo-container {
-  .logo-img {
-    max-width: 60px;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+// ! For Logo of Udaan Educare
+// .logo-container {
+//   .logo-img {
+//     max-width: 60px;
+//   }
+// }
+
+//* Udaan Educare Text-logo
+.udaan-text,
+.educare-text {
+  color: var(--udaan-blue);
+  font-size: 1.6rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+
+// * Navbar horizontal
+.nav-link:hover {
+  color: var(--udaan-orange) !important;
+}
+
+.dropdown-item:hover {
+  color: var(--udaan-orange) !important;
 }
