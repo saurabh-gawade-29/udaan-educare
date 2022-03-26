@@ -92,32 +92,32 @@ export class Footer extends Component {
                 <div className="foot-lic">
                   <p>Udaan Educare 2021. All Right Reserved</p>
                 </div>
-                <div className="foot-social d-flex mx-4">
-                  <div className="facebook">
+                <div className="foot-social d-flex">
+                  <div className="facebook mx-3">
                     <FontAwesomeIcon
                       icon={faFacebook}
-                      className="highlight mx-3"
+                      className="highlight"
                       size="lg"
                     />
                   </div>
-                  <div className="instagram">
+                  <div className="instagram mx-3">
                     <FontAwesomeIcon
                       icon={faInstagram}
-                      className="highlight mx-3"
+                      className="highlight"
                       size="lg"
                     />
                   </div>
-                  <div className="youtube">
+                  <div className="youtube mx-3">
                     <FontAwesomeIcon
                       icon={faYoutube}
-                      className="highlight mx-3"
+                      className="highlight"
                       size="lg"
                     />
                   </div>
-                  <div className="linkedin">
+                  <div className="linkedin mx-3">
                     <FontAwesomeIcon
                       icon={faLinkedin}
-                      className="highlight mx-3"
+                      className="highlight"
                       size="lg"
                     />
                   </div>
