@@ -13,7 +13,7 @@ export class Footer extends Component {
           <div className="container upper-foot-container">
             <section className="top-footer">
               <div className="row">
-                <div className="col-3">
+                <div className="col-12 col-sm-3 col-md-3 col-lg-3 uFooter-col">
                   <h5>Welcome to Udaan Educare</h5>
                   <h1>Udaan Educare</h1>
                   <p className="m-0">
@@ -23,7 +23,7 @@ export class Footer extends Component {
                     ability.
                   </p>
                 </div>
-                <div className="col-3">
+                <div className="col-12 col-sm-3 col-md-3 col-lg-3 uFooter-col">
                   <div className="usefull">
                     <h5>USEFULL LINKS</h5>
                     <ul>
@@ -48,7 +48,7 @@ export class Footer extends Component {
                     </ul>
                   </div>
                 </div>
-                <div className="col-3">
+                <div className="col-12 col-sm-3 col-md-3 col-lg-3 uFooter-col">
                   <div className="courses">
                     <h5>COURSES</h5>
                     <ul>
@@ -64,7 +64,7 @@ export class Footer extends Component {
                     </ul>
                   </div>
                 </div>
-                <div className="col-3">
+                <div className="col-12 col-sm-3 col-md-3 col-lg-3 uFooter-col">
                   <div className="other">
                     <h5>OTHER LINK</h5>
                     <ul>
