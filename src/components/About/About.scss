@@ -1,0 +1,34 @@
+.text-director {
+  color: var(--udaan-blue);
+}
+
+.about-us-heading,
+.why-us,
+.director-heading {
+  .us-head,
+  .us-why,
+  .director-pen {
+    color: var(--udaan-orange);
+  }
+}
+
+.dash-benifit {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px dashed var(--udaan-orange);
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+
+  span {
+    background: #fff;
+    padding: 0 10px;
+  }
+}
+
+.owner-img {
+  img {
+    max-height: 330px;
+    object-fit: cover;
+    object-position: center;
+  }
+}

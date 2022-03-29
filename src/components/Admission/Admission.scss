@@ -1,0 +1,31 @@
+.add-con-margin {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.text-orange {
+  color: var(--udaan-orange);
+}
+
+// .text-blue {
+//   color: var(--udaan-blue);
+// }
+
+.outer-D {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+
+  .inner-D {
+    background: #fff;
+    padding: 0 10px;
+  }
+}
+
+.table {
+  th {
+    vertical-align: middle;
+    text-align: center;
+  }
+}

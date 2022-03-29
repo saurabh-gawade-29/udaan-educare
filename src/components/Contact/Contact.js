@@ -92,62 +92,62 @@ export class Contact extends Component {
                     <form>
                       <div className="mb-3">
                         <label
-                          for="yourName"
-                          class="form-label fw-bold text-muted"
+                          htmlFor="yourName"
+                          className="form-label fw-bold text-muted"
                         >
                           Your Name
                         </label>
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           id="yourName"
                           aria-describedby="emailHelp"
                         />
                       </div>
-                      <div class="mb-3">
+                      <div className="mb-3">
                         <label
-                          for="yourEmail"
-                          class="form-label fw-bold text-muted"
+                          htmlFor="yourEmail"
+                          className="form-label fw-bold text-muted"
                         >
                           Your Email
                         </label>
                         <input
                           type="email"
-                          class="form-control"
+                          className="form-control"
                           id="yourEmail"
                           aria-describedby="emailHelp"
                         />
-                        <div id="emailHelp" class="form-text">
+                        <div id="emailHelp" className="form-text">
                           We'll never share your email with anyone else.
                         </div>
                       </div>
-                      <div class="mb-3">
+                      <div className="mb-3">
                         <label
-                          for="yourSubject"
-                          class="form-label fw-bold text-muted"
+                          htmlFor="yourSubject"
+                          className="form-label fw-bold text-muted"
                         >
                           Your Subject
                         </label>
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           id="yourSubject"
                         />
                       </div>
-                      <div class="mb-3">
+                      <div className="mb-3">
                         <label
-                          for="yourMsg"
-                          class="form-label fw-bold text-muted"
+                          htmlFor="yourMsg"
+                          className="form-label fw-bold text-muted"
                         >
                           Your Message ( Optional )
                         </label>
                         <textarea
-                          class="form-control"
+                          className="form-control"
                           id="yourMsg"
                           rows="3"
                         ></textarea>
                       </div>
-                      <button type="submit" class="btn btn-orange fw-bold">
+                      <button type="submit" className="btn btn-orange fw-bold">
                         Submit
                       </button>
                     </form>

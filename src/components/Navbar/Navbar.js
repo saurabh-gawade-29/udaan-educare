@@ -7,9 +7,10 @@ export class Navbar extends Component {
   render() {
     return (
       <div>
+        <div className="gradient-tab"></div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light udaan-top-navbar">
           <div className="container-fluid">
-            <NavLink className="navbar-brand" to="/">
+            <NavLink className="navbar-brand udaan-full" to="/">
               <span className="udaan-text">Udaan</span>{" "}
               <span className="educare-text">Educare</span>
             </NavLink>
