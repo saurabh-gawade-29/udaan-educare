@@ -6,6 +6,7 @@ import mail from "../../assets/envelope-circle-check-solid.svg";
 import call from "../../assets/headset-solid.svg";
 import clock from "../../assets/clock-solid.svg";
 import contact_girl from "../../assets/Contact_girl.jpg";
+import { Map, Marker, GoogleApiWrapper } from "google-maps-react";
 
 export class Contact extends Component {
   render() {
@@ -154,9 +155,28 @@ export class Contact extends Component {
                   </div>
                 </div>
               </div>
-              {/* <div className="container">
-                <div className="google-map">test</div>
-              </div> */}
+              <div className="map-height">
+                <div className="google-map">
+                  <Map
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      // position: "relative",
+                    }}
+                    google={this.props.google}
+                    zoom={14}
+                    initialCenter={{
+                      lat: 19.2092143,
+                      lng: 72.9506094,
+                    }}
+                  >
+                    <Marker
+                      onClick={this.onMarkerClick}
+                      name={"Current location"}
+                    />
+                  </Map>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -165,4 +185,6 @@ export class Contact extends Component {
   }
 }
 
-export default Contact;
+export default GoogleApiWrapper({
+  apiKey: "AIzaSyDQd18tNe5xViquCSZDegRQWZKBc62uGw4",
+})(Contact);
