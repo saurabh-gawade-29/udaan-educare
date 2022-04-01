@@ -92,6 +92,7 @@ export class Navbar extends Component {
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
+                    disabled
                   >
                     Discover Courses
                   </a>
