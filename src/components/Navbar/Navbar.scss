@@ -7,17 +7,11 @@
 // }
 
 //* Udaan Educare Text-logo
-.udaan-text,
-.educare-text {
-  color: var(--udaan-blue);
-  font-size: 1.6rem;
-  font-family: "Oswald", sans-serif;
-  font-weight: bold;
-}
-
-.udaan-full:hover {
+.udaan-full {
   .udaan-text,
   .educare-text {
+    font-size: 1.6rem;
+    font-weight: 450;
     background-image: linear-gradient(60deg, #e21143, #ffb03a);
     background-clip: text;
     color: transparent;
@@ -25,11 +19,17 @@
 }
 
 // * Navbar horizontal
+.nav-link {
+  font-weight: 400;
+}
+
 .nav-link:hover {
+  font-weight: 500;
   color: var(--udaan-orange) !important;
 }
 
 .dropdown-item:hover {
+  font-weight: 500;
   color: var(--udaan-orange) !important;
 }
 
@@ -38,4 +38,9 @@
   color: #fff;
   text-decoration: none;
   background-color: var(--udaan-blue) !important;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; // remove the gap so it doesn't close
 }

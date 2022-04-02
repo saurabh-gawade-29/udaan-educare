@@ -37,11 +37,7 @@ export class Navbar extends Component {
               <ul className="navbar-nav mx-auto">
                 {/* Home */}
                 <li className="nav-item mx-3">
-                  <NavLink
-                    className="nav-link fw-bold"
-                    to="/"
-                    activeclassname="active"
-                  >
+                  <NavLink className="nav-link" to="/" activeclassname="active">
                     Home
                   </NavLink>
                 </li>
@@ -49,7 +45,7 @@ export class Navbar extends Component {
                 {/* About Us */}
                 <li className="nav-item dropdown mx-3">
                   <a
-                    className="nav-link dropdown-toggle fw-bold"
+                    className="nav-link dropdown-toggle"
                     href="/"
                     id="AboutNavbarDropdown"
                     role="button"
@@ -64,7 +60,7 @@ export class Navbar extends Component {
                   >
                     <li>
                       <NavLink
-                        className="dropdown-item fw-bold"
+                        className="dropdown-item"
                         to="/About"
                         activeclassname="active"
                       >
@@ -73,7 +69,7 @@ export class Navbar extends Component {
                     </li>
                     <li>
                       <NavLink
-                        className="dropdown-item fw-bold"
+                        className="dropdown-item"
                         to="/OurPedagogy"
                         activeclassname="active"
                       >
@@ -86,13 +82,12 @@ export class Navbar extends Component {
                 {/* Discover Courses */}
                 <li className="nav-item dropdown mx-3">
                   <a
-                    className="nav-link dropdown-toggle fw-bold"
+                    className="nav-link dropdown-toggle"
                     href="/"
                     id="DiscoverNavbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
-                    disabled
                   >
                     Discover Courses
                   </a>
@@ -102,7 +97,7 @@ export class Navbar extends Component {
                   >
                     <li>
                       <NavLink
-                        className="dropdown-item fw-bold"
+                        className="dropdown-item"
                         to="/FCourse"
                         activeclassname="active"
                       >
@@ -111,7 +106,7 @@ export class Navbar extends Component {
                     </li>
                     <li>
                       <NavLink
-                        className="dropdown-item fw-bold"
+                        className="dropdown-item"
                         to="/ECourse"
                         activeclassname="active"
                       >
@@ -120,7 +115,7 @@ export class Navbar extends Component {
                     </li>
                     <li>
                       <NavLink
-                        className="dropdown-item fw-bold"
+                        className="dropdown-item"
                         to="/MCourse"
                         activeclassname="active"
                       >
@@ -133,7 +128,7 @@ export class Navbar extends Component {
                 {/* Admission */}
                 <li className="nav-item dropdown mx-3">
                   <a
-                    className="nav-link dropdown-toggle fw-bold"
+                    className="nav-link dropdown-toggle"
                     href="/"
                     id="AboutNavbarDropdown"
                     role="button"
@@ -148,7 +143,7 @@ export class Navbar extends Component {
                   >
                     <li>
                       <NavLink
-                        className="dropdown-item fw-bold"
+                        className="dropdown-item"
                         to="/Admission"
                         activeclassname="active"
                       >
@@ -161,7 +156,7 @@ export class Navbar extends Component {
                 {/* Contact Us */}
                 <li className="nav-item mx-3">
                   <NavLink
-                    className="nav-link fw-bold"
+                    className="nav-link"
                     to="/Contact"
                     activeclassname="active"
                   >
