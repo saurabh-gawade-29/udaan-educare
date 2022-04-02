@@ -4,6 +4,7 @@ import Homeform from "../Homeform/Homeform";
 import Homeabout from "../Homeabout/Homeabout";
 import Parallax from "../Parallax/Parallax";
 import "./Home.scss";
+import Homewhy from "../Homewhy/Homewhy";
 
 export class Home extends Component {
   render() {
@@ -21,6 +22,9 @@ export class Home extends Component {
           </div>
           <div className="home-parallax">
             <Parallax />
+          </div>
+          <div className="home-why-us my-4">
+            <Homewhy />
           </div>
         </div>
       </div>
