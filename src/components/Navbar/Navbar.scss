@@ -23,6 +23,12 @@
   font-weight: 400;
 }
 
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  font-weight: 500;
+  color: var(--udaan-orange) !important;
+}
+
 .nav-link:hover {
   font-weight: 500;
   color: var(--udaan-orange) !important;
@@ -37,7 +43,7 @@
 .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: var(--udaan-blue) !important;
+  background-color: var(--udaan-orange) !important;
 }
 
 .dropdown:hover .dropdown-menu {

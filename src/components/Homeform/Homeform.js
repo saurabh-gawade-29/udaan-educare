@@ -27,38 +27,41 @@ export class Homeform extends Component {
                   <h2 className="text-orange text-center">
                     Talk To Our Expert
                   </h2>
-                  <div className="mb-3">
-                    <label htmlFor="yourName1" className="form-label">
+                  <div className="mb-4">
+                    {/* <label htmlFor="yourName1" className="form-label">
                       Your Full Name
-                    </label>
+                    </label> */}
                     <input
+                      placeholder="Your Full Name"
                       type="text"
                       className="form-control"
-                      id="yourName1"
+                      // id="yourName1"
                     />
                   </div>
-                  <div className="mb-3">
-                    <label htmlFor="Email1" className="form-label">
+                  <div className="mb-4">
+                    {/* <label htmlFor="Email1" className="form-label">
                       Email Address
-                    </label>
+                    </label> */}
                     <input
+                      placeholder="Email Address"
                       type="email"
                       className="form-control"
-                      id="Email1"
+                      // id="Email1"
                       aria-describedby="emailHelp"
                     />
                   </div>
-                  <div className="mb-3">
-                    <label htmlFor="contact1" className="form-label">
+                  <div className="mb-4">
+                    {/* <label htmlFor="contact1" className="form-label">
                       Contact Number
-                    </label>
+                    </label> */}
                     <input
+                      placeholder="Contact Number"
                       type="number"
                       className="form-control"
-                      id="contact1"
+                      // id="contact1"
                     />
                   </div>
-                  <div className="mb-3 w-25">
+                  <div className="mb-4 w-50">
                     <select
                       className="form-select"
                       aria-label="Default select example"
