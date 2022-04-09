@@ -8,7 +8,7 @@ export class Homewhy extends Component {
         <div className="container">
           <div className="why-us">
             <h1 className="text-center">
-              <span>Why</span> <span className="us-why">Us</span>
+              <span>Why</span> <span className="text-orange">Us</span>
             </h1>
             <h5 className="text-center">Learn From The Best, Be The Best</h5>
           </div>

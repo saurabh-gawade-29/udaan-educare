@@ -8,7 +8,7 @@ export class About extends Component {
       <div>
         <div className="container my-4">
           <h1 className="text-center about-us-heading">
-            <span>About</span> <span className="us-head">Us</span>
+            <span>About</span> <span className="text-orange">Us</span>
           </h1>
           <div className="first-para">
             <p>
@@ -95,7 +95,7 @@ export class About extends Component {
         <div className="container my-4">
           <div className="why-us">
             <h1 className="text-center">
-              <span>Why</span> <span className="us-why">Us</span>
+              <span>Why</span> <span className="text-orange">Us</span>
             </h1>
             <h5 className="text-center">Learn From The Best, Be The Best</h5>
           </div>
@@ -198,8 +198,7 @@ export class About extends Component {
 
         <div className="container">
           <h1 className="director-heading">
-            <span>From</span>{" "}
-            <span className="director-pen">Directors Pen</span>
+            <span>From</span> <span className="text-orange">Directors Pen</span>
           </h1>
           <hr />
           <div className="owner-info my-4">
@@ -230,7 +229,7 @@ export class About extends Component {
                       amet. Lorem ipsum dolor sit amet.
                     </p>
                     <div className="owner-name text-center my-4">
-                      <h5 className="text-director">MR. SAURABH GAWADE</h5>
+                      <h5 className="text-blue">MR. SAURABH GAWADE</h5>
                       <h6 className="">DIRECTOR</h6>
                     </div>
                   </div>
@@ -267,7 +266,7 @@ export class About extends Component {
                       amet. Lorem ipsum dolor sit amet.
                     </p>
                     <div className="owner-name text-center my-4">
-                      <h5 className="text-director">MR. SAURABH GAWADE</h5>
+                      <h5 className="text-blue">MR. SAURABH GAWADE</h5>
                       <h6 className="">DIRECTOR</h6>
                     </div>
                   </div>
