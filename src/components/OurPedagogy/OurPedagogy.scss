@@ -1,8 +1,27 @@
 .ourImage {
+  cursor: pointer;
+
   img {
+    height: 230px;
     width: 100%;
     max-height: 300px;
     object-fit: cover;
     object-position: center;
   }
+
+  .our-pedagogy-card-body {
+    text-align: center;
+    height: 127px;
+  }
+
+  .our-pedagogoy-truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+.ourImage:hover {
+  transform: scale(1.01);
 }

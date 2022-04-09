@@ -45,32 +45,32 @@ export class HomeOwl extends Component {
           </h1>
         </div>
         <OwlCarousel className="owl-theme" {...options}>
-          <div class="item">
+          <div className="item">
             <div className="card shadow p-1 my-4">
               <img src={owl1} alt="owl1" className="img-fluid owl-img-main" />
             </div>
           </div>
-          <div class="item">
+          <div className="item">
             <div className="card shadow p-1 my-4">
               <img src={owl2} alt="owl1" className="img-fluid owl-img-main" />
             </div>
           </div>
-          <div class="item">
+          <div className="item">
             <div className="card shadow p-1 my-4">
               <img src={owl3} alt="owl1" className="img-fluid owl-img-main" />
             </div>
           </div>
-          <div class="item">
+          <div className="item">
             <div className="card shadow p-1 my-4">
               <img src={owl1} alt="owl1" className="img-fluid owl-img-main" />
             </div>
           </div>
-          <div class="item">
+          <div className="item">
             <div className="card shadow p-1 my-4">
               <img src={owl2} alt="owl1" className="img-fluid owl-img-main" />
             </div>
           </div>
-          <div class="item">
+          <div className="item">
             <div className="card shadow p-1 my-4">
               <img src={owl3} alt="owl1" className="img-fluid owl-img-main" />
             </div>

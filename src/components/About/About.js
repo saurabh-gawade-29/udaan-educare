@@ -12,17 +12,17 @@ export class About extends Component {
           </h1>
           <div className="first-para">
             <p>
-              Welcome to Excellence Educare. We are grateful for your interest
-              in associating with us. The time before and after 10th Standard
+              Welcome to Udaan Educare. We are grateful for your interest in
+              associating with us. The time before and after 10th Standard
               boards is a confusing one, and you must have several questions in
               your mind. As parents and students alike, the next two years
               represent a quantum change and extremely decisive in terms of
-              future prospects. At Excellence Educare, our ethos is high
-              standards of excellence – moral, ethical and academic. We aim to
-              nurture our students and mentor them on the correct path,
-              emphasising on not just academic progress, but, more crucially,
-              building character and values to help them become competent,
-              contributing and informed citizens of our Nation.
+              future prospects. At Udaan Educare, our ethos is high standards of
+              excellence – moral, ethical and academic. We aim to nurture our
+              students and mentor them on the correct path, emphasising on not
+              just academic progress, but, more crucially, building character
+              and values to help them become competent, contributing and
+              informed citizens of our Nation.
             </p>
           </div>
           <div className="second-para my-2">
@@ -67,23 +67,23 @@ export class About extends Component {
           </div>
           <div className="third-para">
             <p>
-              Welcome to Excellence Educare. We are grateful for your interest
-              in associating with us. The time before and after 10th Standard
+              Welcome to Udaan Educare. We are grateful for your interest in
+              associating with us. The time before and after 10th Standard
               boards is a confusing one, and you must have several questions in
               your mind. As parents and students alike, the next two years
               represent a quantum change and extremely decisive in terms of
-              future prospects. At Excellence Educare, our ethos is high
-              standards of excellence – moral, ethical and academic. We aim to
-              nurture our students and mentor them on the correct path,
-              emphasising on not just academic progress, but, more crucially,
-              building character and values to help them become competent,
-              contributing and informed citizens of our Nation.
+              future prospects. At Udaan Educare, our ethos is high standards of
+              excellence – moral, ethical and academic. We aim to nurture our
+              students and mentor them on the correct path, emphasising on not
+              just academic progress, but, more crucially, building character
+              and values to help them become competent, contributing and
+              informed citizens of our Nation.
             </p>
           </div>
           <div className="forth-para">
             <p>
-              Welcome to Excellence Educare. We are grateful for your interest
-              in associating with us. The time before and after 10th Standard
+              Welcome to Udaan Educare. We are grateful for your interest in
+              associating with us. The time before and after 10th Standard
               boards is a confusing one, and you must have several questions in
               your mind. As parents and students alike, the next two years
               represent a quantum change and extremely decisive in terms of
