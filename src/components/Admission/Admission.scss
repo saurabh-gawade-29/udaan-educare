@@ -15,10 +15,11 @@
     padding: 0 10px;
   }
 }
-
-.table {
-  th {
-    vertical-align: middle;
-    text-align: center;
+.mainTable {
+  .table {
+    th {
+      vertical-align: middle;
+      text-align: center;
+    }
   }
 }

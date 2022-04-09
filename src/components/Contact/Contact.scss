@@ -9,6 +9,7 @@
     overflow: hidden;
     height: 65vh;
     min-height: 300px;
+    max-height: 400px;
 
     img {
       opacity: 0.5;
@@ -57,6 +58,7 @@
 }
 
 .map-height {
+  position: relative;
   margin-top: 2rem;
-  height: 40rem;
+  height: calc(40rem - 10rem);
 }

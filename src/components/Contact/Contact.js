@@ -161,7 +161,7 @@ export class Contact extends Component {
                     style={{
                       width: "100%",
                       height: "100%",
-                      // position: "relative",
+                      position: "relative",
                     }}
                     google={this.props.google}
                     zoom={14}
