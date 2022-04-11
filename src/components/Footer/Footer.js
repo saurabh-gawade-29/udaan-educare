@@ -38,13 +38,13 @@ export class Footer extends Component {
                         <Link to="/Careeroption">Career Option</Link>
                       </li>
                       <li>
-                        <a href="/">Vidoes</a>
+                        <Link to="/Errorpage">Vidoes</Link>
                       </li>
                       <li>
-                        <a href="/">Top Engineering Institute</a>
+                        <Link to="/Errorpage">Top Engineering Institute</Link>
                       </li>
                       <li>
-                        <a href="/">Top Medical Institute</a>
+                        <Link to="/Errorpage">Top Medical Institute</Link>
                       </li>
                     </ul>
                   </div>
@@ -54,13 +54,13 @@ export class Footer extends Component {
                     <h5>COURSES</h5>
                     <ul>
                       <li>
-                        <a href="/">Foundation Course</a>
+                        <Link to="/Errorpage">Foundation Course</Link>
                       </li>
                       <li>
-                        <a href="/">Engineering Course</a>
+                        <Link to="/Errorpage">Engineering Course</Link>
                       </li>
                       <li>
-                        <a href="/">Medical Course</a>
+                        <Link to="/Errorpage">Medical Course</Link>
                       </li>
                     </ul>
                   </div>

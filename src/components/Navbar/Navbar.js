@@ -83,7 +83,7 @@ export class Navbar extends Component {
                 <li className="nav-item dropdown mx-3">
                   <a
                     className="nav-link dropdown-toggle"
-                    href="/"
+                    href="/DC"
                     id="DiscoverNavbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -97,8 +97,8 @@ export class Navbar extends Component {
                   >
                     <li>
                       <NavLink
-                        className="dropdown-item"
-                        to="/FCourse"
+                        className="dropdown-item disabled"
+                        to="/FC"
                         activeclassname="active"
                       >
                         Foundation Course
@@ -106,8 +106,8 @@ export class Navbar extends Component {
                     </li>
                     <li>
                       <NavLink
-                        className="dropdown-item"
-                        to="/ECourse"
+                        className="dropdown-item disabled"
+                        to="/EC"
                         activeclassname="active"
                       >
                         Engineering Course
@@ -115,9 +115,9 @@ export class Navbar extends Component {
                     </li>
                     <li>
                       <NavLink
-                        className="dropdown-item"
-                        to="/MCourse"
-                        activeclassname="active"
+                        className="dropdown-item disabled"
+                        to="/MC"
+                        // activeclassname="active"
                       >
                         Medical Course
                       </NavLink>
