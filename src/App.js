@@ -12,6 +12,7 @@ import Faq from "./components/Faq/Faq";
 import Privacy from "./components/Privacy/Privacy";
 import Refund from "./components/Refund/Refund";
 import Terms from "./components/Terms/Terms";
+import Errorpage from "./components/Errorpage/Errorpage";
 import { Routes, Route } from "react-router-dom";
 
 export class App extends Component {
@@ -31,6 +32,7 @@ export class App extends Component {
           <Route extact path="/Privacy" element={<Privacy />} />
           <Route extact path="/Refund" element={<Refund />} />
           <Route extact path="/Terms" element={<Terms />} />
+          <Route extact path="/Errorpage" element={<Errorpage />} />
         </Routes>
         <Footer />
       </div>
