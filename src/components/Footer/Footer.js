@@ -5,6 +5,7 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import "./Footer.scss";
+import { Link } from "react-router-dom";
 export class Footer extends Component {
   render() {
     return (
@@ -28,13 +29,13 @@ export class Footer extends Component {
                     <h5>USEFULL LINKS</h5>
                     <ul>
                       <li>
-                        <a href="/">About Us</a>
+                        <Link to="/About">About Us</Link>
                       </li>
                       <li>
-                        <a href="/">Admission Criteria</a>
+                        <Link to="/Admission">Admission Criteria</Link>
                       </li>
                       <li>
-                        <a href="/">Career Option</a>
+                        <Link to="/Careeroption">Career Option</Link>
                       </li>
                       <li>
                         <a href="/">Vidoes</a>
@@ -69,16 +70,16 @@ export class Footer extends Component {
                     <h5>OTHER LINK</h5>
                     <ul>
                       <li>
-                        <a href="/">Terms & Condition</a>
+                        <Link to="/Terms">Terms & Condition</Link>
                       </li>
                       <li>
-                        <a href="/">Privacy Policy</a>
+                        <Link to="/Privacy">Privacy Policy</Link>
                       </li>
                       <li>
-                        <a href="/">Refund Policy</a>
+                        <Link to="/Refund">Refund Policy</Link>
                       </li>
                       <li>
-                        <a href="/">FAQ's</a>
+                        <Link to="/Faq">FAQ's</Link>
                       </li>
                     </ul>
                   </div>
