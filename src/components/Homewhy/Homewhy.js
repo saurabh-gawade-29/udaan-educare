@@ -15,7 +15,7 @@ export class Homewhy extends Component {
           <div className="row my-4">
             <div className="col-12 col-sm-12 col-md-4 col-lg-4">
               <h5 className="text-center dash-benifit">
-                <span>Benifits of Excellance</span>
+                <span className="text-muted">Benifits of Excellance</span>
               </h5>
               <ul>
                 <li>
@@ -46,7 +46,7 @@ export class Homewhy extends Component {
             </div>
             <div className="col-12 col-sm-12 col-md-4 col-lg-4">
               <h5 className="text-center dash-benifit">
-                <span>Benifits of Excellance</span>
+                <span className="text-muted">Benifits of Excellance</span>
               </h5>
               <ul>
                 <li>
@@ -77,7 +77,7 @@ export class Homewhy extends Component {
             </div>
             <div className="col-12 col-sm-12 col-md-4 col-lg-4">
               <h5 className="text-center dash-benifit">
-                <span>Benifits of Excellance</span>
+                <span className="text-muted">Benifits of Excellance</span>
               </h5>
               <ul>
                 <li>

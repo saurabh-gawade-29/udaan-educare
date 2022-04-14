@@ -13,6 +13,7 @@ export class About extends Component {
         </div>
         <div className="container my-3 rounded-3 p-4 shadow-sm bg-light">
           <div className="first-para">
+            <h1 className="display-6 fw-bold">Overview</h1>
             <p>
               Welcome to Udaan Educare. We are grateful for your interest in
               associating with us. The time before and after 10th Standard
