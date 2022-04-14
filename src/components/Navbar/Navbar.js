@@ -52,7 +52,7 @@ export class Navbar extends Component {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    About Us
+                    About
                   </a>
                   <ul
                     className="dropdown-menu"
@@ -64,7 +64,7 @@ export class Navbar extends Component {
                         to="/About"
                         activeclassname="active"
                       >
-                        About
+                        About Us
                       </NavLink>
                     </li>
                     <li>

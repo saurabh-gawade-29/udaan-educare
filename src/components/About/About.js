@@ -6,10 +6,12 @@ export class About extends Component {
   render() {
     return (
       <div>
-        <div className="container my-4">
-          <h1 className="text-center about-us-heading">
+        <div className="container my-3">
+          <h1 className="about-us-heading text-center">
             <span>About</span> <span className="text-orange">Us</span>
           </h1>
+        </div>
+        <div className="container my-3 rounded-3 p-4 shadow bg-light">
           <div className="first-para">
             <p>
               Welcome to Udaan Educare. We are grateful for your interest in
@@ -92,182 +94,69 @@ export class About extends Component {
           </div>
         </div>
 
-        <div className="container my-4">
-          <div className="why-us">
-            <h1 className="text-center">
-              <span>Why</span> <span className="text-orange">Us</span>
-            </h1>
-            <h5 className="text-center">Learn From The Best, Be The Best</h5>
-          </div>
-          <div className="row my-4">
-            <div className="col-12 col-sm-12 col-md-4 col-lg-4">
-              <h5 className="text-center dash-benifit">
-                <span>Benifits of Excellance</span>
-              </h5>
-              <ul>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-              </ul>
-            </div>
-            <div className="col-12 col-sm-12 col-md-4 col-lg-4">
-              <h5 className="text-center dash-benifit">
-                <span>Benifits of Excellance</span>
-              </h5>
-              <ul>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-              </ul>
-            </div>
-            <div className="col-12 col-sm-12 col-md-4 col-lg-4">
-              <h5 className="text-center dash-benifit">
-                <span>Benifits of Excellance</span>
-              </h5>
-              <ul>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
         <div className="container">
           <h1 className="director-heading">
             <span>From</span> <span className="text-orange">Directors Pen</span>
           </h1>
-          <hr />
-          <div className="owner-info my-4">
+          <div className="owner-info">
             <div className="row">
-              <div className="col-12 col-sm-12 col-md-4 col-lg-4 my-2">
-                <div className="owner-img card shadow">
-                  <img src={director} alt="" className="img-fluid" />
-                </div>
-              </div>
-              <div className="col-12 col-sm=12 col-md-8 col-lg-8 my-2">
-                <div className="owner-area">
-                  <div className="owner-tagline">
-                    <p className="text-muted font-weight-bold text-center">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Tempora, id.
-                    </p>
-                  </div>
-                  <div className="owner-summurty">
-                    <p className="text-muted">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Nulla, facere sapiente. Similique harum omnis fuga vero
-                      molestias explicabo aperiam reprehenderit animi vitae
-                      consequuntur, amet impedit deleniti expedita hic
-                      perferendis nisi voluptatem, eaque repellendus. Quia
-                      reprehenderit hic exercitationem dignissimos consectetur
-                      est, impedit necessitatibus nostrum fugiat sint expedita?
-                      Velit repellendus adipisci eum? Lorem ipsum dolor sit
-                      amet. Lorem ipsum dolor sit amet.
-                    </p>
-                    <div className="owner-name text-center my-4">
-                      <h5 className="text-blue">MR. SAURABH GAWADE</h5>
-                      <h6 className="">DIRECTOR</h6>
+              <div className="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="card my-3 shadow rounded">
+                  <div class="row g-0">
+                    <div class="col-md-5">
+                      <img
+                        src={director}
+                        class="img-fluid rounded-start rounded-circle"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body">
+                        <h5 class="card-title">Saurabh Gawade</h5>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing
+                          elit. Veritatis iste temporibus a, minus quibusdam
+                          nesciunt vero non laudantium cumque soluta, incidunt
+                          labore illo ratione officiis dolore rem odio, error
+                          nam similique. Repellendus, similique dicta. Quam,
+                          maxime. Cupiditate odio veniam veritatis iusto
+                          molestias rem mollitia, ad et sed magnam natus nobis!
+                        </p>
+                        <p class="card-text">
+                          <small class="text-muted">~ Director</small>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <hr />
-          <div className="owner-info my-4">
-            <div className="row">
-              <div className="col-12 col-sm-12 col-md-4 col-lg-4 my-2">
-                <div className="owner-img card shadow">
-                  <img src={director} alt="" className="img-fluid" />
-                </div>
-              </div>
-              <div className="col-12 col-sm=12 col-md-8 col-lg-8 my-2">
-                <div className="owner-area">
-                  <div className="owner-tagline">
-                    <p className="text-muted font-weight-bold text-center">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Tempora, id.
-                    </p>
-                  </div>
-                  <div className="owner-summurty">
-                    <p className="text-muted">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Nulla, facere sapiente. Similique harum omnis fuga vero
-                      molestias explicabo aperiam reprehenderit animi vitae
-                      consequuntur, amet impedit deleniti expedita hic
-                      perferendis nisi voluptatem, eaque repellendus. Quia
-                      reprehenderit hic exercitationem dignissimos consectetur
-                      est, impedit necessitatibus nostrum fugiat sint expedita?
-                      Velit repellendus adipisci eum? Lorem ipsum dolor sit
-                      amet. Lorem ipsum dolor sit amet.
-                    </p>
-                    <div className="owner-name text-center my-4">
-                      <h5 className="text-blue">MR. SAURABH GAWADE</h5>
-                      <h6 className="">DIRECTOR</h6>
+
+              <div className="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="card my-3 shadow rounded">
+                  <div class="row g-0">
+                    <div class="col-md-5">
+                      <img
+                        src={director}
+                        class="img-fluid rounded-start rounded-circle"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body">
+                        <h5 class="card-title">Saurabh Gawade</h5>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing
+                          elit. Veritatis iste temporibus a, minus quibusdam
+                          nesciunt vero non laudantium cumque soluta, incidunt
+                          labore illo ratione officiis dolore rem odio, error
+                          nam similique. Repellendus, similique dicta. Quam,
+                          maxime. Cupiditate odio veniam veritatis iusto
+                          molestias rem mollitia, ad et sed magnam natus nobis!
+                        </p>
+                        <p class="card-text">
+                          <small class="text-muted">~ Director</small>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
