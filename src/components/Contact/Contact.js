@@ -23,8 +23,10 @@ export class Contact extends Component {
           <div className="row con-gutter-row">
             <div className="col-12">
               <div className="con-head text-center py-2 my-2">
-                <h1>Contact Us</h1>
-                <p className="text-muted">For Any Addmission Queries</p>
+                <h1>
+                  Contact <span className="text-orange">Us</span>
+                </h1>
+                <h6 className="text-muted">For Any Addmission Queries</h6>
               </div>
               <div className="container">
                 <div className="card shadow">
@@ -84,68 +86,53 @@ export class Contact extends Component {
                       <h5 className="text-muted">Get in Touch With Us</h5>
                       <h2 className="fw-bold">
                         Contact Us{" "}
-                        <span className="get-part">for any Questions!</span>
+                        <span className="text-orange">for any Questions!</span>
                       </h2>
                     </div>
-                    <img src={contact_girl} alt="" className="img-fluid" />
+                    <img
+                      src={contact_girl}
+                      alt=""
+                      className="img-fluid shadow rounded"
+                    />
                   </div>
                   <div className="col-12 col-sm-12 col-md-6 col-lg-6 mb-2">
                     <form>
                       <div className="mb-3">
-                        <label
-                          htmlFor="yourName"
-                          className="form-label fw-bold text-muted"
-                        >
-                          Your Name
-                        </label>
                         <input
                           type="text"
                           className="form-control"
                           id="yourName"
-                          aria-describedby="emailHelp"
+                          placeholder="Your Name"
+                          required
                         />
                       </div>
                       <div className="mb-3">
-                        <label
-                          htmlFor="yourEmail"
-                          className="form-label fw-bold text-muted"
-                        >
-                          Your Email
-                        </label>
                         <input
                           type="email"
                           className="form-control"
                           id="yourEmail"
-                          aria-describedby="emailHelp"
+                          placeholder="Your Email"
+                          required
                         />
                         <div id="emailHelp" className="form-text">
                           We'll never share your email with anyone else.
                         </div>
                       </div>
                       <div className="mb-3">
-                        <label
-                          htmlFor="yourSubject"
-                          className="form-label fw-bold text-muted"
-                        >
-                          Your Subject
-                        </label>
                         <input
                           type="text"
                           className="form-control"
                           id="yourSubject"
+                          placeholder="Your Subject"
+                          required
                         />
                       </div>
                       <div className="mb-3">
-                        <label
-                          htmlFor="yourMsg"
-                          className="form-label fw-bold text-muted"
-                        >
-                          Your Message ( Optional )
-                        </label>
                         <textarea
                           className="form-control"
                           id="yourMsg"
                           rows="3"
+                          placeholder="Your Message (Optional)"
                         ></textarea>
                       </div>
                       <button type="submit" className="btn btn-orange fw-bold">

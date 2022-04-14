@@ -11,7 +11,7 @@ export class About extends Component {
             <span>About</span> <span className="text-orange">Us</span>
           </h1>
         </div>
-        <div className="container my-3 rounded-3 p-4 shadow bg-light">
+        <div className="container my-3 rounded-3 p-4 shadow-sm bg-light">
           <div className="first-para">
             <p>
               Welcome to Udaan Educare. We are grateful for your interest in

@@ -28,37 +28,27 @@ export class Homeform extends Component {
                     Talk To Our Expert
                   </h2>
                   <div className="mb-4">
-                    {/* <label htmlFor="yourName1" className="form-label">
-                      Your Full Name
-                    </label> */}
                     <input
                       placeholder="Your Full Name"
                       type="text"
                       className="form-control"
-                      // id="yourName1"
+                      required
                     />
                   </div>
                   <div className="mb-4">
-                    {/* <label htmlFor="Email1" className="form-label">
-                      Email Address
-                    </label> */}
                     <input
                       placeholder="Email Address"
                       type="email"
                       className="form-control"
-                      // id="Email1"
-                      aria-describedby="emailHelp"
+                      required
                     />
                   </div>
                   <div className="mb-4">
-                    {/* <label htmlFor="contact1" className="form-label">
-                      Contact Number
-                    </label> */}
                     <input
                       placeholder="Contact Number"
                       type="number"
                       className="form-control"
-                      // id="contact1"
+                      required
                     />
                   </div>
                   <div className="mb-4 w-50">
