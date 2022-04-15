@@ -143,7 +143,7 @@ export class Navbar extends Component {
                   >
                     <li>
                       <NavLink
-                        className="dropdown-item"
+                        className="dropdown-item disabled"
                         to="/Admission"
                         activeclassname="active"
                       >
