@@ -14,7 +14,7 @@ import car7 from "../../assets/car7.jpg";
 class DemoCarousel extends Component {
   render() {
     return (
-      <Carousel autoPlay showStatus={false} infiniteLoop>
+      <Carousel autoPlay showStatus={false} infiniteLoop swipeable={false}>
         <div>
           <img src={car0} alt="test" />
         </div>

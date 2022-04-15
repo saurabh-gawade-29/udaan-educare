@@ -15,9 +15,29 @@ export class Homewhy extends Component {
           <div className="row my-4">
             <div className="col-12 col-sm-12 col-md-4 col-lg-4">
               <h5 className="text-center dash-benifit">
-                <span className="text-muted">Benifits of Excellance</span>
+                <span className="text-muted blockquote">
+                  Benifits of Excellance
+                </span>
               </h5>
-              <ul>
+              <ul className="">
+                <li>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </li>
+                <li>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </li>
+                <li>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </li>
+                <li>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </li>
+                <li>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </li>
+                <li>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </li>
                 <li>
                   <p>Lorem ipsum dolor sit amet consectetur</p>
                 </li>
@@ -46,9 +66,23 @@ export class Homewhy extends Component {
             </div>
             <div className="col-12 col-sm-12 col-md-4 col-lg-4">
               <h5 className="text-center dash-benifit">
-                <span className="text-muted">Benifits of Excellance</span>
+                <span className="text-muted blockquote">
+                  Facilities Provided
+                </span>
               </h5>
-              <ul>
+              <ul className="">
+                <li>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </li>
+                <li>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </li>
+                <li>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </li>
+                <li>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </li>
                 <li>
                   <p>Lorem ipsum dolor sit amet consectetur</p>
                 </li>
@@ -77,32 +111,23 @@ export class Homewhy extends Component {
             </div>
             <div className="col-12 col-sm-12 col-md-4 col-lg-4">
               <h5 className="text-center dash-benifit">
-                <span className="text-muted">Benifits of Excellance</span>
+                <span className="text-muted blockquote">Our Commitments</span>
               </h5>
-              <ul>
+              <ul className="">
                 <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                  <p>Lorem ipsum dolor sit amet consectetur lorem5</p>
                 </li>
                 <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                  <p>Lorem ipsum dolor sit amet consectetur lorem5</p>
                 </li>
                 <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                  <p>Lorem ipsum dolor sit amet consectetur lorem5</p>
                 </li>
                 <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                  <p>Lorem ipsum dolor sit amet consectetur lorem5</p>
                 </li>
                 <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                  <p>Lorem ipsum dolor sit amet consectetur lorem5</p>
                 </li>
               </ul>
             </div>
