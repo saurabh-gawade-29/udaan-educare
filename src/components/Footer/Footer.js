@@ -41,10 +41,14 @@ export class Footer extends Component {
                         <Link to="/Errorpage">Vidoes</Link>
                       </li>
                       <li>
-                        <Link to="/Errorpage">Top Engineering Institute</Link>
+                        <Link to="/top_engineering_institutes">
+                          Top Engineering Institute
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/Errorpage">Top Medical Institute</Link>
+                        <Link to="/top_medical_institutes">
+                          Top Medical Institute
+                        </Link>
                       </li>
                     </ul>
                   </div>

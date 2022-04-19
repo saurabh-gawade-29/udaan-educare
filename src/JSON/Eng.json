@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "name": "IIT Kharagpur",
+    "city": "West Bengal"
+  },
+
+  {
+    "id": 2,
+    "name": "IIT Bombay",
+    "city": "Maharashtra"
+  },
+
+  {
+    "id": 3,
+    "name": "IIT Kanpur",
+    "city": "Uttar Pradesh"
+  },
+
+  {
+    "id": 4,
+    "name": "IIT Delhi",
+    "city": "Delhi"
+  },
+
+  {
+    "id": 5,
+    "name": "IIT Guwahati",
+    "city": "Assam"
+  },
+
+  {
+    "id": 6,
+    "name": "IIT Roorkee",
+    "city": "Uttarakhand"
+  },
+  {
+    "id": 7,
+    "name": "IIT Bhubaneshwar",
+    "city": "Odisha"
+  },
+
+  {
+    "id": 8,
+    "name": "IIT Gandhinagar",
+    "city": "Gujarat"
+  },
+
+  {
+    "id": 9,
+    "name": "IIT Hyderabad",
+    "city": "Telangana"
+  },
+
+  {
+    "id": 10,
+    "name": "IIT Jodhpur",
+    "city": "Rajasthan"
+  },
+
+  {
+    "id": 11,
+    "name": "IIT Patna",
+    "city": "Bihar"
+  },
+
+  {
+    "id": 12,
+    "name": "IIT Ropar",
+    "city": "Punjab"
+  },
+
+  {
+    "id": 13,
+    "name": "IIT Indore",
+    "city": "adhya Pradesh"
+  },
+
+  {
+    "id": 14,
+    "name": "IIT Mandi",
+    "city": "Himachal Pradesh"
+  },
+
+  {
+    "id": 15,
+    "name": "IIT (BHU)",
+    "city": "Uttar Pradesh"
+  },
+
+  {
+    "id": 16,
+    "name": "IIT Dhanbad",
+    "city": "Jharkhand"
+  },
+
+  {
+    "id": 17,
+    "name": "IIT Palakkad",
+    "city": "Kerala"
+  },
+
+  {
+    "id": 18,
+    "name": "IIT Tiruputi",
+    "city": "Andhra Pradesh"
+  },
+
+  {
+    "id": 19,
+    "name": "IIT Goa",
+    "city": "Goa"
+  },
+
+  {
+    "id": 20,
+    "name": "IIT Dharwad",
+    "city": "Karnataka"
+  },
+
+  {
+    "id": 21,
+    "name": "IIT Bhilai",
+    "city": "Chattisgarh"
+  },
+
+  {
+    "id": 22,
+    "name": "IIT Jammu",
+    "city": "Jammu & Kashmir"
+  }
+]

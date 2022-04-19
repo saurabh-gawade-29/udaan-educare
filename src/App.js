@@ -14,6 +14,8 @@ import Refund from "./components/Refund/Refund";
 import Terms from "./components/Terms/Terms";
 import Errorpage from "./components/Errorpage/Errorpage";
 import { Routes, Route } from "react-router-dom";
+import Topeng from "./components/Topeng/Topeng";
+import Topmedi from "./components/TopMedi/Topmedi";
 
 export class App extends Component {
   render() {
@@ -33,6 +35,12 @@ export class App extends Component {
           <Route extact path="/Refund" element={<Refund />} />
           <Route extact path="/Terms" element={<Terms />} />
           <Route extact path="/Errorpage" element={<Errorpage />} />
+          <Route
+            extact
+            path="/top_engineering_institutes"
+            element={<Topeng />}
+          />
+          <Route extact path="/top_medical_institutes" element={<Topmedi />} />
         </Routes>
         <Footer />
       </div>
