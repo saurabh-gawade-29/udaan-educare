@@ -1,0 +1,153 @@
+[
+  {
+    "id": 1,
+    "name": "National Institute of Technology",
+    "city": "Agartala (Tripura)"
+  },
+  {
+    "id": 2,
+    "name": "Motilal Nehru National Institute of Technology",
+    "city": "Allahabad (UP)"
+  },
+  {
+    "id": 3,
+    "name": "National Institute of Technology",
+    "city": "Arunachal Pradesh"
+  },
+  {
+    "id": 4,
+    "name": "Maulana Azad National Institute of Technology",
+    "city": "Bhopal (MP)"
+  },
+  {
+    "id": 5,
+    "name": "National Institute of Technology",
+    "city": "Calicut (Kerela)"
+  },
+  {
+    "id": 6,
+    "name": "National Institute of Technology",
+    "city": "Delhi"
+  },
+  {
+    "id": 7,
+    "name": "National Institute of Technology",
+    "city": "Durgapur (West Bengal)"
+  },
+  {
+    "id": 8,
+    "name": "National Institute of Technology",
+    "city": "Goa"
+  },
+  {
+    "id": 9,
+    "name": "National Institute of Technology",
+    "city": "Hamirpur (Himachal Pradesh)"
+  },
+  {
+    "id": 10,
+    "name": "Malviya National Institute of Technology",
+    "city": "Jaipur (Rajasthan)"
+  },
+  {
+    "id": 11,
+    "name": "Dr.B R Ambedkar National Institute of Technology",
+    "city": "Jalandhar (Punjab)"
+  },
+  {
+    "id": 12,
+    "name": "National Institute of Technology",
+    "city": "Jamshedpur (Jharkhand)"
+  },
+  {
+    "id": 13,
+    "name": "National Institute of Technology",
+    "city": "Kurukshetra (Haryana)"
+  },
+  {
+    "id": 14,
+    "name": "National Institute of Technology",
+    "city": "Manipur"
+  },
+  {
+    "id": 15,
+    "name": "National Institute of Technology",
+    "city": "Meghalaya"
+  },
+
+  {
+    "id": 16,
+    "name": "National Institute of Technology",
+    "city": "Mizoram"
+  },
+  {
+    "id": 17,
+    "name": "National Institute of Technology",
+    "city": "Nagaland"
+  },
+  {
+    "id": 18,
+    "name": "Visvesvaraya National Institute of Technology",
+    "city": "Nagpur (Maharashtra)"
+  },
+  {
+    "id": 19,
+    "name": "National Institute of Technology",
+    "city": "Patna (Bihar)"
+  },
+  {
+    "id": 20,
+    "name": "National Institute of Technology",
+    "city": "Puducherry"
+  },
+  {
+    "id": 21,
+    "name": "National Institute of Technology",
+    "city": "Raipur (Chhattisgarh)"
+  },
+  {
+    "id": 22,
+    "name": "National Institute of Technology",
+    "city": "Rourkela (Odisha)"
+  },
+  {
+    "id": 23,
+    "name": "National Institute of Technology",
+    "city": "Sikkim"
+  },
+  {
+    "id": 24,
+    "name": "National Institute of Technology",
+    "city": "Silchar (Assam)"
+  },
+  {
+    "id": 25,
+    "name": "National Institute of Technology, Hazartbal",
+    "city": "Srinagar (J & K)"
+  },
+  {
+    "id": 26,
+    "name": "Sardar Vallabhbhai National Institute of Technology",
+    "city": "Surat (Gujarat)"
+  },
+  {
+    "id": 27,
+    "name": "National Institute of Technology",
+    "city": "Mangalore (Karnataka)"
+  },
+  {
+    "id": 28,
+    "name": "National Institute of Technology",
+    "city": "Tiruchirapalli (Tamil Nadu)"
+  },
+  {
+    "id": 29,
+    "name": "National Institute of Technology",
+    "city": "Uttrakhand"
+  },
+  {
+    "id": 30,
+    "name": "National Institute of Technology",
+    "city": "Warangal (Andhra Pradesh)"
+  }
+]

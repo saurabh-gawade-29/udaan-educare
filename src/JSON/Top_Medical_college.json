@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "name": "All India Institute of Medical Science (AIIMS)",
+    "city": "Delhi"
+  },
+  {
+    "id": 2,
+    "name": "Christian Medical College",
+    "city": "Vellore"
+  },
+  {
+    "id": 3,
+    "name": "Armed Forces Medical College",
+    "city": "Pune"
+  },
+  {
+    "id": 4,
+    "name": "Maulana Azed Medical College",
+    "city": "Delhi"
+  },
+  {
+    "id": 5,
+    "name": "asturba Medical College",
+    "city": "Manipal"
+  },
+  {
+    "id": 6,
+    "name": "Lady Hardinge Medical College",
+    "city": "Delhi"
+  },
+  {
+    "id": 7,
+    "name": "Grant Medical College",
+    "city": "Mumbai"
+  },
+  {
+    "id": 8,
+    "name": "University College of Medical Sciences",
+    "city": "Delhi"
+  },
+  {
+    "id": 9,
+    "name": "King George’s Medical University",
+    "city": "Lucknow"
+  },
+  {
+    "id": 10,
+    "name": "Shri Ramachadra Medical College",
+    "city": "Chennai"
+  },
+  {
+    "id": 11,
+    "name": "Institute of Medical Sciences, BHU",
+    "city": "Varanasi"
+  },
+  {
+    "id": 12,
+    "name": "Seth GS Medical College",
+    "city": "Mumbai"
+  },
+  {
+    "id": 13,
+    "name": "Lokmanya Tilak Municipal Medical College",
+    "city": "Mumbai"
+  },
+  {
+    "id": 14,
+    "name": "Bangalora Medical College",
+    "city": "Bangalore"
+  },
+  {
+    "id": 15,
+    "name": "Jawaharlal Nehru Medical College",
+    "city": "AMU,Aligarh"
+  },
+  {
+    "id": 16,
+    "name": "B.J. Medical College and Sassoon Hospital",
+    "city": "Pune"
+  },
+  {
+    "id": 17,
+    "name": "Osmania Medical College",
+    "city": "Hyderabad"
+  },
+  {
+    "id": 18,
+    "name": "Amrita Institute of Medical Sciences",
+    "city": "Kochi"
+  },
+  {
+    "id": 19,
+    "name": "Institute of Post Graduate Medical Edu.",
+    "city": "Kolkata"
+  },
+  {
+    "id": 20,
+    "name": "B.J. Medical College (BJMC)",
+    "city": "Ahmedabad"
+  },
+  {
+    "id": 21,
+    "name": "Christian Medical College",
+    "city": "Ludhiana"
+  },
+  {
+    "id": 22,
+    "name": "Stanley Medical College",
+    "city": "Chennai"
+  },
+  {
+    "id": 23,
+    "name": "MS Ramaiah Medical College",
+    "city": "Bangalore"
+  },
+  {
+    "id": 24,
+    "name": "Medical College and Hospital",
+    "city": "Kolkata"
+  },
+  {
+    "id": 25,
+    "name": "TN Medical College",
+    "city": "Mumbai"
+  }
+]

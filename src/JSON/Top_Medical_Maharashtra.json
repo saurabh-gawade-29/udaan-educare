@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "name": "Seth G.S. Medical College",
+    "city": "Mumbai"
+  },
+  {
+    "id": 2,
+    "name": "Grant Medical College",
+    "city": "Mumbai"
+  },
+  {
+    "id": 3,
+    "name": "Topiwala Nair Medical College",
+    "city": "Mumbai"
+  },
+  {
+    "id": 4,
+    "name": "Lokmanya Tilak Medical College",
+    "city": "Mumbai"
+  },
+  {
+    "id": 5,
+    "name": "R.N.Cooper (HHBT) Medical College",
+    "city": "Mumbai"
+  },
+  {
+    "id": 6,
+    "name": "Rajiv Gandhi Medical College",
+    "city": "Mumbai"
+  },
+  {
+    "id": 7,
+    "name": "B.J. Medical College",
+    "city": "Pune"
+  },
+  {
+    "id": 8,
+    "name": "Dr.V.M. Medical College",
+    "city": "Solapur"
+  },
+  {
+    "id": 9,
+    "name": "Shree Balasaheb Hire Medical College",
+    "city": "Dhule"
+  },
+  {
+    "id": 10,
+    "name": "Government Medical College",
+    "city": "Miraj"
+  },
+  {
+    "id": 11,
+    "name": "R.C.S.M.Government Medical College",
+    "city": "Kolhapur"
+  },
+  {
+    "id": 12,
+    "name": "Government Medical College",
+    "city": "Nagpur"
+  },
+  {
+    "id": 13,
+    "name": "Indira Gandhi Medical College",
+    "city": "Nagpur"
+  },
+  {
+    "id": 14,
+    "name": "Shri.V.N.Government Medical College",
+    "city": "Yeotmal"
+  },
+  {
+    "id": 15,
+    "name": "Government Medical College",
+    "city": "Akola"
+  },
+  {
+    "id": 16,
+    "name": "Government Medical College",
+    "city": "Chandrapur"
+  },
+  {
+    "id": 17,
+    "name": "Government Medical College",
+    "city": "Aurangabad"
+  },
+  {
+    "id": 18,
+    "name": "Government Medical College",
+    "city": "Nanded"
+  },
+  {
+    "id": 19,
+    "name": "S.R.T.R. Medical College",
+    "city": "Ambajogai"
+  },
+  {
+    "id": 20,
+    "name": "Government Medical College",
+    "city": "Latur"
+  },
+  {
+    "id": 21,
+    "name": "Government Medical College",
+    "city": "Gondia"
+  },
+  {
+    "id": 22,
+    "name": "Government Medical College",
+    "city": "Mumbai"
+  },
+  {
+    "id": 23,
+    "name": "Nair Dental College",
+    "city": "Mumbai"
+  },
+  {
+    "id": 24,
+    "name": "Government Dental College",
+    "city": "Nagpur"
+  },
+  {
+    "id": 25,
+    "name": "Government Dental College",
+    "city": "Aurangabad"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "Veermata Jijabai Technological Institute (VJTI)",
+    "city": "Mumbai"
+  },
+
+  {
+    "id": 2,
+    "name": "Institute Of Chemical Technology",
+    "city": "Munbai"
+  },
+
+  {
+    "id": 3,
+    "name": "Sardar Patel College Of Engineering",
+    "city": "Mumbai"
+  }
+]

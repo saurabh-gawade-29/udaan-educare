@@ -1,38 +1,90 @@
 import React, { Component } from "react";
 import "./Topmedi.scss";
+import JsonData from "../../JSON/Top_Medical_college.json";
+import JsonData1 from "../../JSON/Top_Medical_Maharashtra.json";
+
+const displayData = JsonData.map((e) => {
+  return (
+    <tr>
+      <th scope="col" className="text-center p-2">
+        {e.id}
+      </th>
+      <th scope="col" className="text-center p-2">
+        {e.name}
+      </th>
+      <th scope="col" className="text-center p-2">
+        {e.city}
+      </th>
+    </tr>
+  );
+});
+
+const displayData1 = JsonData1.map((e) => {
+  return (
+    <tr>
+      <th scope="col" className="text-center p-2">
+        {e.id}
+      </th>
+      <th scope="col" className="text-center p-2">
+        {e.name}
+      </th>
+      <th scope="col" className="text-center p-2">
+        {e.city}
+      </th>
+    </tr>
+  );
+});
 
 export class Topmedi extends Component {
   render() {
     return (
       <div>
         <div className="container my-4">
-          <h1 className="display-6 text-orange">Top Medical Institutes</h1>
+          <h1 className="text-orange text-center">
+            Top Medical Institutes Of India
+          </h1>
+
           <div className="wrapper-table table-responsive my-4">
-            <table className="table">
-              <thead className="table-light">
+            <h5 className="text-blue">
+              Top 25 Medical College of india (in preference order)
+            </h5>
+            <table className="table table-hover table-bordered">
+              <thead className="table-light text-center">
                 <tr>
-                  <th scope="col">No</th>
-                  <th scope="col">College Name</th>
-                  <th scope="col">Location</th>
+                  <th scope="col" className="p-2">
+                    No
+                  </th>
+                  <th scope="col" className="p-2">
+                    College Name
+                  </th>
+                  <th scope="col" className="p-2">
+                    Location
+                  </th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody>{displayData}</tbody>
+            </table>
+          </div>
+
+          <div className="wrapper-table table-responsive my-4">
+            <h5 className="text-blue">
+              List of Medical and Dental College in Maharashtra
+            </h5>
+            <table className="table table-hover table-bordered">
+              <thead className="table-light text-center">
                 <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
+                  <th scope="col" className="p-2">
+                    No
+                  </th>
+                  <th scope="col" className="p-2">
+                    College Name
+                  </th>
+                  <th scope="col" className="p-2">
+                    Location
+                  </th>
                 </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Larry the Bird</td>
-                  <td>@twitter</td>
-                </tr>
-              </tbody>
+              </thead>
+              <tbody>{displayData1}</tbody>
             </table>
           </div>
         </div>

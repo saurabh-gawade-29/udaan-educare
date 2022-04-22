@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "name": "BITS Pilani, Vidya Vihar Pilani",
+    "city": "Rajasthan"
+  },
+
+  {
+    "id": 2,
+    "name": "BITS, KK Birla",
+    "city": "Zuarinagar, Goa"
+  },
+
+  {
+    "id": 3,
+    "name": "BITS",
+    "city": "Hyderabad, Telangana"
+  },
+
+  {
+    "id": 4,
+    "name": "BITS",
+    "city": "Dubai"
+  }
+]
