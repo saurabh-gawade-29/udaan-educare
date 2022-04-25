@@ -8,7 +8,7 @@ export class Careeroption extends Component {
       <div>
         <div className="container my-3">
           <h2 className="text-orange text-center">
-            JOB OPPORTUNITY AT EXCELLENCE EDUCARE
+            JOB OPPORTUNITY AT UDAAN EDUCARE
           </h2>
           <div className="wrapper-car-form">
             <div className="row">
