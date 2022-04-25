@@ -7,8 +7,9 @@ export class Careeroption extends Component {
     return (
       <div>
         <div className="container my-3">
-          <h2 className="text-orange text-center">
-            JOB OPPORTUNITY AT UDAAN EDUCARE
+          <h2 className="text-center">
+            JOB OPPORTUNITY AT{" "}
+            <span className="text-orange">UDAAN EDUCARE</span>
           </h2>
           <div className="wrapper-car-form">
             <div className="row">
