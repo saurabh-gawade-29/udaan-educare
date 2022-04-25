@@ -32,7 +32,7 @@ export class Footer extends Component {
                         <Link to="/About">About Us</Link>
                       </li>
                       <li>
-                        <Link to="/Errorpage">Admission Criteria</Link>
+                        <Link to="/Admission">Admission Criteria</Link>
                       </li>
                       <li>
                         <Link to="/Errorpage">Career Option</Link>
