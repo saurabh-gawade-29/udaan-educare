@@ -29,6 +29,7 @@ export class Careeroption extends Component {
                         class="form-control"
                         placeholder="Full Name"
                         id="Name"
+                        required
                       />
                       <label for="Name">Full Name</label>
                     </div>
@@ -36,10 +37,11 @@ export class Careeroption extends Component {
                   <div class="form-group my-3">
                     <div class="form-floating">
                       <input
-                        type="text"
+                        type="email"
                         class="form-control"
                         placeholder="Email Address"
                         id="Email"
+                        required
                       />
                       <label for="Email">Email</label>
                     </div>
@@ -51,6 +53,7 @@ export class Careeroption extends Component {
                         class="form-control"
                         placeholder="Contact Number"
                         id="contact"
+                        required
                       />
                       <label for="contact">Contact Number</label>
                     </div>
@@ -60,7 +63,13 @@ export class Careeroption extends Component {
                       <label class="input-group-text" for="cv">
                         Resume / CV
                       </label>
-                      <input type="file" class="form-control " id="cv" />
+                      <input
+                        type="file"
+                        class="form-control "
+                        id="cv"
+                        required
+                        accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                      />
                     </div>
                   </div>
                   <div class="form-group my-3">
@@ -69,6 +78,7 @@ export class Careeroption extends Component {
                         class="form-control"
                         placeholder="Leave a comment here"
                         id="msg"
+                        required
                       ></textarea>
                       <label for="msg">Any Comment</label>
                     </div>
