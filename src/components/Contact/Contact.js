@@ -6,10 +6,16 @@ import mail from "../../assets/envelope-circle-check-solid.svg";
 import call from "../../assets/headset-solid.svg";
 import clock from "../../assets/clock-solid.svg";
 import contact_girl from "../../assets/Contact_girl.jpg";
-import { Map, Marker, InfoWindow, GoogleApiWrapper } from "google-maps-react";
+import {
+  Map,
+  Marker,
+  InfoWindow,
+  GoogleApiWrapper,
+  Circle,
+} from "google-maps-react";
 
 const LoadingContainer = (props) => <div>Fancy loading container!</div>;
-
+const office = { lat: 19.2067, lng: 72.9537 };
 export class Contact extends Component {
   state = {
     showingInfoWindow: false, // Hides or shows the InfoWindow
@@ -185,7 +191,7 @@ export class Contact extends Component {
                       onClick={this.onMarkerClick}
                       title={"Hey! You Are On The Right Way"}
                       name={"Udaan Educare"}
-                      position={{ lat: 19.2067, lng: 72.9537 }}
+                      position={office}
                     />
                     <InfoWindow
                       marker={this.state.activeMarker}
@@ -196,6 +202,18 @@ export class Contact extends Component {
                         <h4>{this.state.selectedPlace.name}</h4>
                       </div>
                     </InfoWindow>
+                    <Circle
+                      center={office}
+                      radius={500}
+                      onMouseover={() => console.log("mouseover")}
+                      onClick={() => console.log("click")}
+                      onMouseout={() => console.log("mouseout")}
+                      strokeColor="transparent"
+                      strokeOpacity={0}
+                      strokeWeight={5}
+                      fillColor="#FF0000"
+                      fillOpacity={0.2}
+                    />
                   </Map>
                 </div>
               </div>
