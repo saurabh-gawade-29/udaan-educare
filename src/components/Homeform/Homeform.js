@@ -51,15 +51,47 @@ export class Homeform extends Component {
                       required
                     />
                   </div>
-                  <div className="mb-4 w-50">
-                    <select
-                      className="form-select"
-                      aria-label="Default select example"
-                    >
-                      <option value="0">Class XII</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
+                  <div className="mb-4 w-50 wrapper-home-form-dropdown">
+                    <select className="form-select home-form-dropdown">
+                      <option value="0" className="home-form-option">
+                        Open this to select menu
+                      </option>
+                      <option value="0" className="home-form-option">
+                        Class XII
+                      </option>
+                      <option value="1" className="home-form-option">
+                        Class XI
+                      </option>
+                      <option value="2" className="home-form-option">
+                        Class I
+                      </option>
+                      <option value="3" className="home-form-option">
+                        Class II
+                      </option>
+                      <option value="4" className="home-form-option">
+                        Class III
+                      </option>
+                      <option value="5" className="home-form-option">
+                        Class IV
+                      </option>
+                      <option value="6" className="home-form-option">
+                        Class V
+                      </option>
+                      <option value="7" className="home-form-option">
+                        Class VI
+                      </option>
+                      <option value="8" className="home-form-option">
+                        Class VII
+                      </option>
+                      <option value="9" className="home-form-option">
+                        Class VIII
+                      </option>
+                      <option value="10" className="home-form-option">
+                        Class IX
+                      </option>
+                      <option value="11" className="home-form-option">
+                        Class X
+                      </option>
                     </select>
                   </div>
                   <button type="submit" className="btn btn-orange">

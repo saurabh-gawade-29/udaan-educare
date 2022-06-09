@@ -24,4 +24,16 @@
   input {
     height: 55px;
   }
+
+  .wrapper-home-form-dropdown {
+    .home-form-dropdown {
+      .home-form-option {
+        color: var(--udaan-blue);
+      }
+    }
+  }
+
+  select option:hover {
+    color: red !important;
+  }
 }
