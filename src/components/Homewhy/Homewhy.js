@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./Homewhy.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAward } from "@fortawesome/free-solid-svg-icons";
 
 export class Homewhy extends Component {
   render() {
@@ -19,48 +21,66 @@ export class Homewhy extends Component {
                   Benifits of Excellance
                 </span>
               </h5>
-              <ul className="">
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+              <ul className="my-list-style">
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
               </ul>
             </div>
@@ -70,42 +90,66 @@ export class Homewhy extends Component {
                   Facilities Provided
                 </span>
               </h5>
-              <ul className="">
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+              <ul className="my-list-style">
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
               </ul>
             </div>
@@ -113,21 +157,66 @@ export class Homewhy extends Component {
               <h5 className="text-center dash-benifit">
                 <span className="text-muted blockquote">Our Commitments</span>
               </h5>
-              <ul className="">
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur lorem5</p>
+              <ul className="my-list-style">
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur lorem5</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur lorem5</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur lorem5</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet consectetur lorem5</p>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
+                </li>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
+                </li>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
+                </li>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
+                </li>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
+                </li>
+                <li className="d-flex list-icon-adjust">
+                  <FontAwesomeIcon icon={faAward} size="sm" />
+                  <p className="icon-list-text">
+                    Saurabh Lorem ipsum dolor sit amet test
+                  </p>
                 </li>
               </ul>
             </div>
