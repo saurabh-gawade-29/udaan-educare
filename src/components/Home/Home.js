@@ -6,6 +6,7 @@ import Parallax from "../Parallax/Parallax";
 import "./Home.scss";
 import Homewhy from "../Homewhy/Homewhy";
 import HomeOwl from "../HomeOwl/HomeOwl";
+import HomeOwlReview from "../HomeOwlReview/HomeOwlReview";
 
 export class Home extends Component {
   render() {
@@ -24,11 +25,14 @@ export class Home extends Component {
           <div className="home-parallax">
             <Parallax />
           </div>
-          <div className="home- my-4">
+          <div className="home-why-us my-4">
             <Homewhy />
           </div>
-          <div className="home-why-us my-4">
+          <div className="home-owl my-4">
             <HomeOwl />
+          </div>
+          <div className="home-owl-review my-4">
+            <HomeOwlReview />
           </div>
         </div>
       </div>

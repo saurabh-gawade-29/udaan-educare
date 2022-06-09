@@ -1,0 +1,11 @@
+.wrapper-img-testimonial {
+  display: flex;
+  justify-content: center;
+  .testi-img {
+    border-radius: 50%;
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: cover;
+    object-position: center;
+  }
+}
