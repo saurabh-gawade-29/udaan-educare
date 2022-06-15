@@ -1,6 +1,9 @@
 {
   "name": "udaan-educare",
   "version": "0.1.0",
+  "engines": {
+    "node": "16.14.2"
+  },
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
