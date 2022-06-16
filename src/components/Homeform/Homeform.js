@@ -9,37 +9,43 @@ import * as validator from "../../helper/Validator";
 export class Homeform extends Component {
   constructor(props) {
     super(props);
-    this.initState();
     this.name = React.createRef();
     this.email = React.createRef();
     this.contact = React.createRef();
-  }
-
-  initState() {
+    this.std = React.createRef();
     this.state = {
       name: "",
       email: "",
       contact: "",
+      std: "",
     };
+    this.contactOnChange = this.contactOnChange.bind(this);
   }
 
   componentDidMount() {
     validator.add(this.name);
     validator.add(this.email);
     validator.add(this.contact);
+    validator.add(this.std);
   }
+
+  contactOnChange = (e) => {
+    this.setState({
+      [e.target.name]: e.target.value,
+    });
+  };
 
   homeSubmit = (e) => {
     e.preventDefault();
     let asd = validator.hardValidator();
-    debugger;
+
     if (asd === true) {
       this.setState({
-        name: null,
-        email: null,
-        contact: null,
+        name: "",
+        email: "",
+        contact: "",
+        std: "",
       });
-    } else {
     }
   };
   render() {
@@ -66,6 +72,7 @@ export class Homeform extends Component {
                 <h2 className="text-orange text-center">Talk To Our Expert</h2>
                 <div className="mb-4">
                   <input
+                    name="name"
                     aria-label="Your Full Name"
                     value={this.state.name}
                     ref={this.name}
@@ -73,10 +80,14 @@ export class Homeform extends Component {
                     type="text"
                     className="form-control"
                     required
+                    onChange={(e) => {
+                      this.contactOnChange(e);
+                    }}
                   />
                 </div>
                 <div className="mb-4">
                   <input
+                    name="email"
                     aria-label="Your Email"
                     value={this.state.email}
                     ref={this.email}
@@ -84,10 +95,14 @@ export class Homeform extends Component {
                     type="email"
                     className="form-control"
                     required
+                    onChange={(e) => {
+                      this.contactOnChange(e);
+                    }}
                   />
                 </div>
                 <div className="mb-4">
                   <input
+                    name="contact"
                     aria-label="Your Contact"
                     value={this.state.contact}
                     ref={this.contact}
@@ -95,14 +110,22 @@ export class Homeform extends Component {
                     type="number"
                     className="form-control"
                     required
+                    onChange={(e) => {
+                      this.contactOnChange(e);
+                    }}
                   />
                 </div>
                 <div className="mb-4 w-50 wrapper-home-form-dropdown">
-                  <select className="form-select home-form-dropdown">
-                    <option value="0" className="home-form-option">
-                      Open this to select menu
-                    </option>
-                    <option value="0" className="home-form-option">
+                  <select
+                    className="form-select home-form-dropdown"
+                    ref={this.std}
+                    name="std"
+                    value={this.state.std}
+                    onChange={(e) => {
+                      this.contactOnChange(e);
+                    }}
+                  >
+                    <option value="Class XII" className="home-form-option">
                       Class XII
                     </option>
                     <option value="1" className="home-form-option">
