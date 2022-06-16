@@ -36,10 +36,11 @@ export class Homeform extends Component {
   };
 
   homeSubmit = (e) => {
+    debugger;
     e.preventDefault();
-    let asd = validator.hardValidator();
-
-    if (asd === true) {
+    let checkTrue = validator.hardValidator();
+    // Check For Return True or Not
+    if (checkTrue === true) {
       this.setState({
         name: "",
         email: "",
