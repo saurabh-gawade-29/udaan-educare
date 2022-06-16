@@ -25,14 +25,14 @@ export function hardValidator() {
       let badRefs = passRef[indi];
       badRefs.current.focus();
       toast.error(`Please fill ${control.current.ariaLabel}`, {
-        position: "bottom-center",
+        position: "top-right",
         autoClose: 2000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
-        theme: "dark",
+        theme: "colored",
       });
       return;
     }

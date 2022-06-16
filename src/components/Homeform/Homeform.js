@@ -121,10 +121,14 @@ export class Homeform extends Component {
                     ref={this.std}
                     name="std"
                     value={this.state.std}
+                    aria-label="at list one selection"
                     onChange={(e) => {
                       this.contactOnChange(e);
                     }}
                   >
+                    <option value="" className="home-form-option">
+                      Please Select One
+                    </option>
                     <option value="Class XII" className="home-form-option">
                       Class XII
                     </option>
