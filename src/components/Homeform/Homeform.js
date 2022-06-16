@@ -133,37 +133,37 @@ export class Homeform extends Component {
                     <option value="Class XII" className="home-form-option">
                       Class XII
                     </option>
-                    <option value="1" className="home-form-option">
+                    <option value="Class XI" className="home-form-option">
                       Class XI
                     </option>
-                    <option value="2" className="home-form-option">
+                    <option value="Class I" className="home-form-option">
                       Class I
                     </option>
-                    <option value="3" className="home-form-option">
+                    <option value="Class II" className="home-form-option">
                       Class II
                     </option>
-                    <option value="4" className="home-form-option">
+                    <option value="Class III" className="home-form-option">
                       Class III
                     </option>
-                    <option value="5" className="home-form-option">
+                    <option value="Class IV" className="home-form-option">
                       Class IV
                     </option>
-                    <option value="6" className="home-form-option">
+                    <option value="Class V" className="home-form-option">
                       Class V
                     </option>
-                    <option value="7" className="home-form-option">
+                    <option value="Class VI" className="home-form-option">
                       Class VI
                     </option>
-                    <option value="8" className="home-form-option">
+                    <option value="Class VII" className="home-form-option">
                       Class VII
                     </option>
-                    <option value="9" className="home-form-option">
+                    <option value="Class VIII" className="home-form-option">
                       Class VIII
                     </option>
-                    <option value="10" className="home-form-option">
+                    <option value="Class IX" className="home-form-option">
                       Class IX
                     </option>
-                    <option value="11" className="home-form-option">
+                    <option value="Class X" className="home-form-option">
                       Class X
                     </option>
                   </select>
