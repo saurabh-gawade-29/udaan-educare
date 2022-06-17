@@ -15,14 +15,15 @@ p {
 .text-blue {
   color: var(--udaan-blue);
 }
-
-.refreshUdaan {
+.font-awesome-icon-wrapper {
   cursor: pointer;
-  transition: transform 0.6s ease-in-out;
-}
+  .refreshUdaan {
+    transition: transform 0.6s ease-in-out;
+  }
 
-.refreshUdaan:hover {
-  transform: rotate(360deg);
+  .refreshUdaan:hover {
+    transform: rotate(360deg);
+  }
 }
 
 .btn-orange {

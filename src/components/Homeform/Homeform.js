@@ -195,7 +195,7 @@ export class Homeform extends Component {
                     </option>
                   </select>
                 </div>
-                <div className="btn-wrapper">
+                <div className="btn-wrapper d-flex align-items-center">
                   <button
                     type="button"
                     className="btn btn-orange"
@@ -203,14 +203,16 @@ export class Homeform extends Component {
                   >
                     Submit
                   </button>
-                  <FontAwesomeIcon
-                    data-toggle="tooltip"
-                    icon={faArrowsRotate}
-                    className="highlight mx-4 refreshUdaan"
-                    size="lg"
-                    onClick={this.onClear}
-                    title="Clear"
-                  />
+                  <div className="font-awesome-icon-wrapper">
+                    <FontAwesomeIcon
+                      data-toggle="tooltip"
+                      icon={faArrowsRotate}
+                      className="highlight mx-4 refreshUdaan"
+                      size="lg"
+                      onClick={this.onClear}
+                      title="Clear"
+                    />
+                  </div>
                 </div>
 
                 {/* </form> */}
