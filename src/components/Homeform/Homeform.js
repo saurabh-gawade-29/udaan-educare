@@ -2,9 +2,13 @@ import React, { Component } from "react";
 import "./Homeform.scss";
 import homeImg from "../../assets/img_1_girl.jpg";
 
+import { toast } from "react-toastify";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import * as validator from "../../helper/Validator";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
+import Swal from "sweetalert2";
 
 export class Homeform extends Component {
   constructor(props) {
@@ -35,17 +39,40 @@ export class Homeform extends Component {
     });
   };
 
+  formClear = () => {
+    this.setState({
+      name: "",
+      email: "",
+      contact: "",
+      std: "",
+    });
+    return true;
+  };
+
   homeSubmit = (e) => {
     debugger;
     e.preventDefault();
-    let checkTrue = validator.hardValidator();
+    let checkTrue = false;
+    checkTrue = validator.hardValidator();
     // Check For Return True or Not
     if (checkTrue === true) {
-      this.setState({
-        name: "",
-        email: "",
-        contact: "",
-        std: "",
+      this.formClear();
+    }
+  };
+
+  onClear = () => {
+    debugger;
+    let checkClear = this.formClear();
+    if (checkClear === true) {
+      toast.success(`Cleared Successfully`, {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
       });
     }
   };
@@ -68,7 +95,7 @@ export class Homeform extends Component {
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-              <div className="home-form-container">
+              <div className="home-form-container my-4">
                 {/* <form> */}
                 <h2 className="text-orange text-center">Talk To Our Expert</h2>
                 <div className="mb-4">
@@ -168,13 +195,24 @@ export class Homeform extends Component {
                     </option>
                   </select>
                 </div>
-                <button
-                  type="button"
-                  className="btn btn-orange"
-                  onClick={(e) => this.homeSubmit(e)}
-                >
-                  Submit
-                </button>
+                <div className="btn-wrapper">
+                  <button
+                    type="button"
+                    className="btn btn-orange"
+                    onClick={(e) => this.homeSubmit(e)}
+                  >
+                    Submit
+                  </button>
+                  <FontAwesomeIcon
+                    data-toggle="tooltip"
+                    icon={faArrowsRotate}
+                    className="highlight mx-4 refreshUdaan"
+                    size="lg"
+                    onClick={this.onClear}
+                    title="Clear"
+                  />
+                </div>
+
                 {/* </form> */}
               </div>
               <ToastContainer />
