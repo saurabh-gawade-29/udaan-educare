@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./AdminSidebarIn.scss";
 
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouseUser } from "@fortawesome/free-solid-svg-icons";
 import { faAddressCard } from "@fortawesome/free-solid-svg-icons";

@@ -5,7 +5,7 @@ import "./HomeOwlReview.scss";
 import UserReview1 from "../../assets/UserReview1.jpg";
 import UserReview2 from "../../assets/UserReview2.jpg";
 import UserReview3 from "../../assets/UserReview3.jpg";
-import UserReview4 from "../../assets/UserReview4.jpg";
+// import UserReview4 from "../../assets/UserReview4.jpg";
 import UserReview5 from "../../assets/UserReview5.jpg";
 
 // Owl Carousel

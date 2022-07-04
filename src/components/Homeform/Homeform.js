@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import * as validator from "../../helper/Validator";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
-import Swal from "sweetalert2";
+// import Swal from "sweetalert2";
 
 export class Homeform extends Component {
   constructor(props) {
