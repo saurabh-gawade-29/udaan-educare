@@ -19,34 +19,36 @@
 }
 
 // * Navbar horizontal
-.nav-link {
-  font-weight: 400;
-}
+.udaan-top-navbar {
+  .nav-link {
+    font-weight: 400;
+  }
 
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .show > .nav-link {
-  font-weight: 500;
-  color: var(--udaan-orange) !important;
-}
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .show > .nav-link {
+    font-weight: 500;
+    color: var(--udaan-orange) !important;
+  }
 
-.nav-link:hover {
-  font-weight: 500;
-  color: var(--udaan-orange) !important;
-}
+  .nav-link:hover {
+    font-weight: 500;
+    color: var(--udaan-orange) !important;
+  }
 
-.dropdown-item:hover {
-  font-weight: 500;
-  color: black !important;
-}
+  .dropdown-item:hover {
+    font-weight: 500;
+    color: black !important;
+  }
 
-.dropdown-item.active,
-.dropdown-item:active {
-  color: #fff;
-  text-decoration: none;
-  background-color: var(--udaan-orange) !important;
-}
+  .dropdown-item.active,
+  .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--udaan-orange) !important;
+  }
 
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0; // remove the gap so it doesn't close
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+  }
 }
