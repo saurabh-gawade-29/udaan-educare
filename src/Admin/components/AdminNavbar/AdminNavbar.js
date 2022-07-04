@@ -8,7 +8,7 @@ class AdminNavbar extends Component {
       <div>
         <header className="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow admin-dashboard-header">
           <Link
-            className="navbar-brand col-md-3 col-lg-2 me-0 px-3 fw-bold"
+            className="navbar-brand col-md-3 col-lg-2 me-0 px-3 fw-bold text-uppercase"
             to="/admin"
           >
             Dashboard
