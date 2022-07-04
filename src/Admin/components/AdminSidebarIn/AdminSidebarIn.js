@@ -15,9 +15,9 @@ class AdminSidebarIn extends Component {
   render() {
     return (
       <div>
-        <div className="position-sticky pt-3">
+        <div className="position-sticky pt-3 admin-sidebar">
           <ul className="nav flex-column">
-            <li className="nav-item d-flex align-items-center mx-3">
+            <li className="nav-item d-flex align-items-center">
               <div className="my-dash-symbol">
                 <FontAwesomeIcon icon={faHouseUser} size="lg" />
               </div>
@@ -25,7 +25,7 @@ class AdminSidebarIn extends Component {
                 Home
               </Link>
             </li>
-            <li className="nav-item d-flex align-items-center mx-3">
+            <li className="nav-item d-flex align-items-center">
               <div className="my-dash-symbol">
                 <FontAwesomeIcon icon={faAddressCard} size="lg" />
               </div>
@@ -33,7 +33,7 @@ class AdminSidebarIn extends Component {
                 Contact Us
               </Link>
             </li>
-            <li className="nav-item d-flex align-items-center mx-3">
+            <li className="nav-item d-flex align-items-center">
               <div className="my-dash-symbol">
                 <FontAwesomeIcon icon={faCircleInfo} size="lg" />
               </div>
@@ -41,7 +41,7 @@ class AdminSidebarIn extends Component {
                 About Us
               </Link>
             </li>
-            <li className="nav-item d-flex align-items-center mx-3">
+            <li className="nav-item d-flex align-items-center">
               <div className="my-dash-symbol">
                 <FontAwesomeIcon icon={faTicket} size="lg" />
               </div>
@@ -49,7 +49,7 @@ class AdminSidebarIn extends Component {
                 Admission
               </Link>
             </li>
-            <li className="nav-item d-flex align-items-center mx-3">
+            <li className="nav-item d-flex align-items-center">
               <div className="my-dash-symbol">
                 <FontAwesomeIcon icon={faPersonChalkboard} size="lg" />
               </div>
@@ -57,7 +57,7 @@ class AdminSidebarIn extends Component {
                 Career Option
               </Link>
             </li>
-            <li className="nav-item d-flex align-items-center mx-3">
+            <li className="nav-item d-flex align-items-center">
               <div className="my-dash-symbol">
                 <FontAwesomeIcon icon={faBuildingColumns} size="lg" />
               </div>
@@ -65,7 +65,7 @@ class AdminSidebarIn extends Component {
                 Top College
               </Link>
             </li>
-            <li className="nav-item d-flex align-items-center mx-3">
+            <li className="nav-item d-flex align-items-center">
               <div className="my-dash-symbol">
                 <FontAwesomeIcon icon={faBuildingShield} size="lg" />
               </div>

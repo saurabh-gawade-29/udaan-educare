@@ -3,6 +3,12 @@
   --udaan-orange: #ffa72c;
   --gradient-orange: linear-gradient(-90deg, #f16636, #f8af30);
   --gradient-blue: linear-gradient(-90deg, #2861a5, #13a7d5);
+
+  //TODO: Admin Panal
+  --admin-white: #f5f5f5;
+  --admin-red: #ed1a20;
+  --admin-gradient-red: linear-gradient(135deg, #f5f5f5 80%, #ed1a20 0%);
+  --admin-gradient-red-rev: linear-gradient(135deg, #f5f5f5 10%, #ed1a20 80%);
 }
 
 p {
@@ -14,6 +20,10 @@ p {
 
 .text-blue {
   color: var(--udaan-blue);
+}
+
+.admin-red {
+  color: var(--admin-red);
 }
 .font-awesome-icon-wrapper {
   cursor: pointer;
