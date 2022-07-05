@@ -19,7 +19,7 @@
 
   .sidebar .nav-link {
     font-weight: 500;
-    color: #333;
+    color: var(--admin-black);
   }
 
   .sidebar-heading {
@@ -30,25 +30,25 @@
   .my-dash-symbol {
     width: 30px;
     margin-left: 15px;
-    transition: all 0.5s ease;
+    transition: all 0.1s ease;
   }
 
   .nav-item {
     margin-top: 10px;
     margin-bottom: 10px;
-    background: var(--admin-gradient-red);
-    transition: all 0.3s ease;
+    background: var(--admin-gradient-gold);
+    transition: all 0.5s ease;
   }
   .nav-item:hover {
-    color: var(--admin-red);
-    background: var(--admin-gradient-red-rev);
+    color: var(--admin-dark-black);
+    background: var(--admin-gradient-gold-rev);
 
     .my-dash-symbol {
       margin-left: 20px;
     }
 
     .nav-link {
-      color: var(--admin-white);
+      color: var(--admin-dark-black);
     }
   }
 }

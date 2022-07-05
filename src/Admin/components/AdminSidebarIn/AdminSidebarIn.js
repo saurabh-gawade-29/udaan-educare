@@ -21,7 +21,7 @@ class AdminSidebarIn extends Component {
               <div className="my-dash-symbol">
                 <FontAwesomeIcon icon={faHouseUser} size="lg" />
               </div>
-              <Link to="/home" className="nav-link px-1" aria-current="page">
+              <Link to="/" className="nav-link px-1" aria-current="page">
                 Home
               </Link>
             </li>

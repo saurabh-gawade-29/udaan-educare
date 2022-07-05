@@ -5,10 +5,12 @@
   --gradient-blue: linear-gradient(-90deg, #2861a5, #13a7d5);
 
   //TODO: Admin Panal
-  --admin-white: #f5f5f5;
-  --admin-red: #ed1a20;
-  --admin-gradient-red: linear-gradient(135deg, #f5f5f5 80%, #ed1a20 0%);
-  --admin-gradient-red-rev: linear-gradient(135deg, #f5f5f5 10%, #ed1a20 80%);
+  --admin-dark-black: #111111;
+  --admin-black: #2f2f2f;
+  --admin-white: #f6f6f6;
+  --admin-gold: #ffcb74;
+  --admin-gradient-gold: linear-gradient(135deg, #f6f6f6 80%, #4bafa6 0%);
+  --admin-gradient-gold-rev: linear-gradient(90deg, #f6f6f6 10%, #4bafa6 80%);
 }
 
 p {

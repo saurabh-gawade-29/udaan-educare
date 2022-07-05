@@ -54,15 +54,24 @@ export class App extends Component {
                 </nav>
                 {/* Admin - Content */}
                 <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-                  <Routes>
-                    <Route path="/home" element={<AdminHome />} />
-                    <Route path="/contact" element={<AdminContact />} />
-                    <Route path="/about" element={<AdminAbout />} />
-                    <Route path="/admission" element={<AdminAdmission />} />
-                    <Route path="/career" element={<AdminCareer />} />
-                    <Route path="/college" element={<AdminCollege />} />
-                    <Route path="/other" element={<AdminOther />} />
-                  </Routes>
+                  <div className="container-fluid my-4">
+                    <div className="card shadow">
+                      <div className="card-body">
+                        <Routes>
+                          <Route path="/" element={<AdminHome />} />
+                          <Route path="/contact" element={<AdminContact />} />
+                          <Route path="/about" element={<AdminAbout />} />
+                          <Route
+                            path="/admission"
+                            element={<AdminAdmission />}
+                          />
+                          <Route path="/career" element={<AdminCareer />} />
+                          <Route path="/college" element={<AdminCollege />} />
+                          <Route path="/other" element={<AdminOther />} />
+                        </Routes>
+                      </div>
+                    </div>
+                  </div>
                 </main>
               </div>
             </div>
