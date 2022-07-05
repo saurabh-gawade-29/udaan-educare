@@ -54,8 +54,15 @@ export class Dashboard extends Component {
                       </div>
                       <div className="text-center">
                         <button type="submit" className="btn-orange">
-                          Submit
+                          Login
                         </button>
+                        {/* <div>
+            <label>
+                Username:{''}
+                <input type="text" onChange={(e) => setUser(e.target.value)} />
+            </label>
+            <button onClick={handleLogin}>Login</button>
+        </div> */}
                       </div>
                     </form>
                   </div>
