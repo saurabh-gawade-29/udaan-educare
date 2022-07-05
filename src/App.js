@@ -39,7 +39,7 @@ export class App extends Component {
     };
   }
   render() {
-    if (this.state.isAdmin === false) {
+    if (this.state.isAdmin === true) {
       return (
         <div>
           <div className="admin-dashboard">

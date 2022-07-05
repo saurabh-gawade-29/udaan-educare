@@ -17,59 +17,81 @@ class AdminSidebarIn extends Component {
       <div>
         <div className="position-sticky pt-3 admin-sidebar">
           <ul className="nav flex-column">
-            <li className="nav-item d-flex align-items-center">
-              <div className="my-dash-symbol">
-                <FontAwesomeIcon icon={faHouseUser} size="lg" />
-              </div>
-              <Link to="/" className="nav-link px-1" aria-current="page">
+            <li className="nav-item ">
+              <Link
+                to="/"
+                className="nav-link px-1 d-flex align-items-center"
+                aria-current="page"
+              >
+                <div className="my-dash-symbol">
+                  <FontAwesomeIcon icon={faHouseUser} size="lg" />
+                </div>
                 Home
               </Link>
             </li>
-            <li className="nav-item d-flex align-items-center">
-              <div className="my-dash-symbol">
-                <FontAwesomeIcon icon={faAddressCard} size="lg" />
-              </div>
-              <Link className="nav-link px-1" to="/contact">
+            <li className="nav-item">
+              <Link
+                className="nav-link px-1 d-flex align-items-center"
+                to="/contact"
+              >
+                <div className="my-dash-symbol">
+                  <FontAwesomeIcon icon={faAddressCard} size="lg" />
+                </div>
                 Contact Us
               </Link>
             </li>
-            <li className="nav-item d-flex align-items-center">
-              <div className="my-dash-symbol">
-                <FontAwesomeIcon icon={faCircleInfo} size="lg" />
-              </div>
-              <Link className="nav-link px-1" to="/about">
+            <li className="nav-item">
+              <Link
+                className="nav-link px-1 d-flex align-items-center"
+                to="/about"
+              >
+                <div className="my-dash-symbol">
+                  <FontAwesomeIcon icon={faCircleInfo} size="lg" />
+                </div>
                 About Us
               </Link>
             </li>
-            <li className="nav-item d-flex align-items-center">
-              <div className="my-dash-symbol">
-                <FontAwesomeIcon icon={faTicket} size="lg" />
-              </div>
-              <Link className="nav-link px-1" to="/admission">
+            <li className="nav-item">
+              <Link
+                className="nav-link px-1 d-flex align-items-center"
+                to="/admission"
+              >
+                <div className="my-dash-symbol">
+                  <FontAwesomeIcon icon={faTicket} size="lg" />
+                </div>
                 Admission
               </Link>
             </li>
-            <li className="nav-item d-flex align-items-center">
-              <div className="my-dash-symbol">
-                <FontAwesomeIcon icon={faPersonChalkboard} size="lg" />
-              </div>
-              <Link className="nav-link px-1" to="/career">
+            <li className="nav-item ">
+              <Link
+                className="nav-link px-1 d-flex align-items-center"
+                to="/career"
+              >
+                <div className="my-dash-symbol">
+                  <FontAwesomeIcon icon={faPersonChalkboard} size="lg" />
+                </div>
                 Career Option
               </Link>
             </li>
-            <li className="nav-item d-flex align-items-center">
-              <div className="my-dash-symbol">
-                <FontAwesomeIcon icon={faBuildingColumns} size="lg" />
-              </div>
-              <Link className="nav-link px-1" to="/college">
+            <li className="nav-item ">
+              <Link
+                className="nav-link px- d-flex align-items-center"
+                to="/college"
+              >
+                <div className="my-dash-symbol">
+                  <FontAwesomeIcon icon={faBuildingColumns} size="lg" />
+                </div>
                 Top College
               </Link>
             </li>
-            <li className="nav-item d-flex align-items-center">
-              <div className="my-dash-symbol">
-                <FontAwesomeIcon icon={faBuildingShield} size="lg" />
-              </div>
-              <Link className="nav-link px-1" to="/other">
+            <li className="nav-item ">
+              <Link
+                className="nav-link px-1 d-flex align-items-center"
+                to="/other"
+              >
+                <div className="my-dash-symbol">
+                  <FontAwesomeIcon icon={faBuildingShield} size="lg" />
+                </div>
                 Other
               </Link>
             </li>
