@@ -8,7 +8,7 @@ import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 import { faTicket } from "@fortawesome/free-solid-svg-icons";
 import { faPersonChalkboard } from "@fortawesome/free-solid-svg-icons";
-import { faBuildingColumns } from "@fortawesome/free-solid-svg-icons";
+import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faBuildingShield } from "@fortawesome/free-solid-svg-icons";
 
 class AdminSidebarIn extends Component {
@@ -75,11 +75,11 @@ class AdminSidebarIn extends Component {
             </li>
             <li className="nav-item ">
               <Link
-                className="nav-link px- d-flex align-items-center"
+                className="nav-link px-1 d-flex align-items-center"
                 to="/college"
               >
                 <div className="my-dash-symbol">
-                  <FontAwesomeIcon icon={faBuildingColumns} size="lg" />
+                  <FontAwesomeIcon icon={faGraduationCap} size="lg" />
                 </div>
                 Top College
               </Link>
