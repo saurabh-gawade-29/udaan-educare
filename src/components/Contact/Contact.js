@@ -1,11 +1,18 @@
 import React, { Component } from "react";
 import "./Contact.scss";
+
 import contact_back from "../../assets/Contact_Back.jpg";
 import location from "../../assets/location-dot-solid.svg";
 import mail from "../../assets/envelope-circle-check-solid.svg";
 import call from "../../assets/headset-solid.svg";
 import clock from "../../assets/clock-solid.svg";
 import contact_girl from "../../assets/Contact_girl.jpg";
+
+import * as validator from "../../helper/Validator";
+// import { toast } from "react-toastify";
+// import { ToastContainer } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.css";
+
 import {
   Map,
   Marker,
@@ -13,15 +20,69 @@ import {
   GoogleApiWrapper,
   Circle,
 } from "google-maps-react";
+import { ToastContainer } from "react-toastify";
 
 const LoadingContainer = (props) => <div>Fancy loading container!</div>;
 const office = { lat: 19.2067, lng: 72.9537 };
 export class Contact extends Component {
-  state = {
-    showingInfoWindow: false, // Hides or shows the InfoWindow
-    activeMarker: {}, // Shows the active marker upon click
-    selectedPlace: {}, // Shows the InfoWindow to the selected place upon a marker
+  constructor(props) {
+    super(props);
+    this.fullName = React.createRef();
+    this.email = React.createRef();
+    this.subject = React.createRef();
+    this.message = React.createRef();
+    this.state = {
+      showingInfoWindow: false, // Hides or shows the InfoWindow
+      activeMarker: {}, // Shows the active marker upon click
+      selectedPlace: {}, // Shows the InfoWindow to the selected place upon a marker
+
+      fullName: "",
+      email: "",
+      sub: "",
+      msg: "",
+    };
+    this.contactOnChange = this.contactOnChange.bind(this);
+  }
+
+  componentDidMount() {
+    validator.add(this.fullName);
+    validator.add(this.email);
+    validator.add(this.subject);
+    validator.add(this.message);
+  }
+
+  contactOnChange = (e) => {
+    this.setState({
+      [e.target.name]: e.target.value,
+    });
   };
+
+  homeSubmit = (e) => {
+    debugger;
+    e.preventDefault();
+    let checkTrue = false;
+    checkTrue = validator.hardValidator();
+    // Check For Return True or Not
+    if (checkTrue === true) {
+      this.formClear();
+    }
+  };
+
+  formClear = () => {
+    this.setState({
+      fullName: "",
+      email: "",
+      sub: "",
+      msg: "",
+    });
+    return true;
+  };
+
+  // state = {
+  //   showingInfoWindow: false, // Hides or shows the InfoWindow
+  //   activeMarker: {}, // Shows the active marker upon click
+  //   selectedPlace: {}, // Shows the InfoWindow to the selected place upon a marker
+  // };
 
   onMarkerClick = (props, marker, e) =>
     this.setState({
@@ -126,49 +187,75 @@ export class Contact extends Component {
                     />
                   </div>
                   <div className="col-12 col-sm-12 col-md-6 col-lg-6 mb-2">
-                    <form>
-                      <div className="mb-3">
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="yourName"
-                          placeholder="Your Name"
-                          required
-                        />
+                    <div className="mb-3">
+                      <input
+                        name="fullName"
+                        aria-label="Your Full Name"
+                        value={this.state.fullName}
+                        ref={this.fullName}
+                        onChange={(e) => {
+                          this.contactOnChange(e);
+                        }}
+                        type="text"
+                        className="form-control"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+                    <div className="mb-3">
+                      <input
+                        name="email"
+                        ref={this.email}
+                        aria-label="Your Full Email"
+                        value={this.state.email}
+                        onChange={(e) => {
+                          this.contactOnChange(e);
+                        }}
+                        type="email"
+                        className="form-control"
+                        placeholder="Your Email"
+                        required
+                      />
+                      <div id="emailHelp" className="form-text">
+                        We'll never share your email with anyone else.
                       </div>
-                      <div className="mb-3">
-                        <input
-                          type="email"
-                          className="form-control"
-                          id="yourEmail"
-                          placeholder="Your Email"
-                          required
-                        />
-                        <div id="emailHelp" className="form-text">
-                          We'll never share your email with anyone else.
-                        </div>
-                      </div>
-                      <div className="mb-3">
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="yourSubject"
-                          placeholder="Your Subject"
-                          required
-                        />
-                      </div>
-                      <div className="mb-3">
-                        <textarea
-                          className="form-control"
-                          id="yourMsg"
-                          rows="3"
-                          placeholder="Your Message (Optional)"
-                        ></textarea>
-                      </div>
-                      <button type="submit" className="btn btn-orange fw-bold">
-                        Submit
-                      </button>
-                    </form>
+                    </div>
+                    <div className="mb-3">
+                      <input
+                        ref={this.subject}
+                        name="sub"
+                        aria-label="Subject"
+                        value={this.state.sub}
+                        onChange={(e) => {
+                          this.contactOnChange(e);
+                        }}
+                        type="text"
+                        className="form-control"
+                        placeholder="Your Subject"
+                        required
+                      />
+                    </div>
+                    <div className="mb-3">
+                      <textarea
+                        ref={this.message}
+                        name="msg"
+                        aria-label="message"
+                        value={this.state.msg}
+                        onChange={(e) => {
+                          this.contactOnChange(e);
+                        }}
+                        className="form-control"
+                        rows="3"
+                        placeholder="Your Message (Optional)"
+                      ></textarea>
+                    </div>
+                    <button
+                      type="button"
+                      className="btn btn-orange fw-bold"
+                      onClick={(e) => this.homeSubmit(e)}
+                    >
+                      Submit
+                    </button>
                   </div>
                 </div>
               </div>
@@ -220,6 +307,7 @@ export class Contact extends Component {
             </div>
           </div>
         </div>
+        <ToastContainer />
       </div>
     );
   }

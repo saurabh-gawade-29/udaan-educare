@@ -21,11 +21,7 @@ export function hardValidator() {
     debugger;
     control = target;
     indi = passRef.indexOf(target);
-    if (
-      control.current.value === "" ||
-      control.current.value === null ||
-      control.current.value === undefined
-    ) {
+    if (control.current.value === "" || control.current.value === null) {
       let badRefs = passRef[indi];
       badRefs.current.focus();
       toast.error(`Please fill ${control.current.ariaLabel}`, {
