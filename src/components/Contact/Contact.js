@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Contact.scss";
+import { Validator } from "../../helper/Validator";
 
 import contact_back from "../../assets/Contact_Back.jpg";
 import location from "../../assets/location-dot-solid.svg";
@@ -7,11 +8,6 @@ import mail from "../../assets/envelope-circle-check-solid.svg";
 import call from "../../assets/headset-solid.svg";
 import clock from "../../assets/clock-solid.svg";
 import contact_girl from "../../assets/Contact_girl.jpg";
-
-import * as validator from "../../helper/Validator";
-// import { toast } from "react-toastify";
-// import { ToastContainer } from "react-toastify";
-// import "react-toastify/dist/ReactToastify.css";
 
 import {
   Map,
@@ -45,10 +41,11 @@ export class Contact extends Component {
   }
 
   componentDidMount() {
-    validator.add(this.fullName);
-    validator.add(this.email);
-    validator.add(this.subject);
-    validator.add(this.message);
+    this.validator = new Validator();
+    this.validator.add(this.fullName);
+    this.validator.add(this.email);
+    this.validator.add(this.subject);
+    this.validator.add(this.message);
   }
 
   contactOnChange = (e) => {
@@ -61,7 +58,7 @@ export class Contact extends Component {
     debugger;
     e.preventDefault();
     let checkTrue = false;
-    checkTrue = validator.hardValidator();
+    checkTrue = this.validator.hardValidator();
     // Check For Return True or Not
     if (checkTrue === true) {
       this.formClear();

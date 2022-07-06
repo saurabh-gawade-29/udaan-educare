@@ -5,7 +5,7 @@ import homeImg from "../../assets/img_1_girl.jpg";
 import { toast } from "react-toastify";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import * as validator from "../../helper/Validator";
+import { Validator } from "../../helper/Validator";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 // import Swal from "sweetalert2";
@@ -27,10 +27,11 @@ export class Homeform extends Component {
   }
 
   componentDidMount() {
-    validator.add(this.name);
-    validator.add(this.email);
-    validator.add(this.contact);
-    validator.add(this.std);
+    this.validator = new Validator();
+    this.validator.add(this.name);
+    this.validator.add(this.email);
+    this.validator.add(this.contact);
+    this.validator.add(this.std);
   }
 
   contactOnChange = (e) => {
@@ -53,7 +54,7 @@ export class Homeform extends Component {
     debugger;
     e.preventDefault();
     let checkTrue = false;
-    checkTrue = validator.hardValidator();
+    checkTrue = this.validator.hardValidator();
     // Check For Return True or Not
     if (checkTrue === true) {
       this.formClear();
