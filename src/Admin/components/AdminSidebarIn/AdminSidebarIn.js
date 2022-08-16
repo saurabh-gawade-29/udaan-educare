@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./AdminSidebarIn.scss";
 
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouseUser } from "@fortawesome/free-solid-svg-icons";
 import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
@@ -18,82 +18,111 @@ class AdminSidebarIn extends Component {
         <div className="position-sticky pt-3 admin-sidebar">
           <ul className="nav flex-column">
             <li className="nav-item ">
-              <Link
+              <NavLink
                 to="/"
-                className="nav-link px-1 d-flex align-items-center"
+                className={({ isActive }) =>
+                  isActive
+                    ? "sideNavActive nav-link px-1 d-flex align-items-center"
+                    : "nav-link px-1 d-flex align-items-center"
+                }
+                // className="nav-link px-1 d-flex align-items-center"
                 aria-current="page"
               >
                 <div className="my-dash-symbol">
                   <FontAwesomeIcon icon={faHouseUser} size="lg" />
                 </div>
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link px-1 d-flex align-items-center"
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "sideNavActive nav-link px-1 d-flex align-items-center"
+                    : "nav-link px-1 d-flex align-items-center"
+                }
                 to="/contact"
               >
                 <div className="my-dash-symbol">
                   <FontAwesomeIcon icon={faAddressCard} size="lg" />
                 </div>
                 Contact Us
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link px-1 d-flex align-items-center"
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "sideNavActive nav-link px-1 d-flex align-items-center"
+                    : "nav-link px-1 d-flex align-items-center"
+                }
                 to="/about"
               >
                 <div className="my-dash-symbol">
                   <FontAwesomeIcon icon={faCircleInfo} size="lg" />
                 </div>
                 About Us
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link px-1 d-flex align-items-center"
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "sideNavActive nav-link px-1 d-flex align-items-center"
+                    : "nav-link px-1 d-flex align-items-center"
+                }
                 to="/admission"
               >
                 <div className="my-dash-symbol">
                   <FontAwesomeIcon icon={faTicket} size="lg" />
                 </div>
                 Admission
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item ">
-              <Link
-                className="nav-link px-1 d-flex align-items-center"
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "sideNavActive nav-link px-1 d-flex align-items-center"
+                    : "nav-link px-1 d-flex align-items-center"
+                }
                 to="/career"
               >
                 <div className="my-dash-symbol">
                   <FontAwesomeIcon icon={faPersonChalkboard} size="lg" />
                 </div>
                 Career Option
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item ">
-              <Link
-                className="nav-link px-1 d-flex align-items-center"
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "sideNavActive nav-link px-1 d-flex align-items-center"
+                    : "nav-link px-1 d-flex align-items-center"
+                }
                 to="/college"
               >
                 <div className="my-dash-symbol">
                   <FontAwesomeIcon icon={faGraduationCap} size="lg" />
                 </div>
                 Top College
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item ">
-              <Link
-                className="nav-link px-1 d-flex align-items-center"
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "sideNavActive nav-link px-1 d-flex align-items-center"
+                    : "nav-link px-1 d-flex align-items-center"
+                }
                 to="/other"
               >
                 <div className="my-dash-symbol">
                   <FontAwesomeIcon icon={faBuildingShield} size="lg" />
                 </div>
                 Other
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
