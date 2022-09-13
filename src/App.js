@@ -35,11 +35,11 @@ export class App extends Component {
     super(props);
 
     this.state = {
-      isAdmin: false,
+      isAdmin: true,
     };
   }
   render() {
-    if (this.state.isAdmin === false) {
+    if (this.state.isAdmin === true) {
       return (
         <div>
           <div className="admin-dashboard">
