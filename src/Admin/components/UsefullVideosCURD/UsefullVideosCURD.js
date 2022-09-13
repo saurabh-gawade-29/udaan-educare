@@ -5,7 +5,7 @@ export class UsefullVideosCURD extends Component {
   render() {
     return (
       <div>
-        <h1>UsefullVideosCURD</h1>
+        <h1>No Need Now</h1>
       </div>
     );
   }
