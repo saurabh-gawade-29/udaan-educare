@@ -10,24 +10,20 @@ class CarouselCURD extends Component {
     return (
       <div>
         <div className="section-1 my-4">
-          <div className="card">
-            <div className="card-header h3">Home - Carousel</div>
-            <div className="card-body">
-              <form>
-                <div class="mb-3">
-                  <div className="row">
-                    <div className="col-md-9">
-                      <input class="form-control" type="file" id="formFile" />
-                    </div>
-                    <div className="col-md-3">
-                      <button type="submit" class="btn admin-button">
-                        Add
-                      </button>
-                    </div>
-                  </div>
+          <div className="h3 my-4">Home - Carousel</div>
+          <div className="">
+            <form>
+              <div className="row">
+                <div className="col-md-6">
+                  <input class="form-control" type="file" id="formFile" />
                 </div>
-              </form>
-            </div>
+                <div className="col-md-2">
+                  <button type="submit" class="btn admin-button btn-block">
+                    Add
+                  </button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
         <div className="section-2 my-4">
