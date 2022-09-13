@@ -1,0 +1,25 @@
+.tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+}
+
+.admin-card-head {
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: var(--admin-gold);
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 4px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
